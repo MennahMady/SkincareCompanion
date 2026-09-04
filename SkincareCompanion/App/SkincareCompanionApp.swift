@@ -2,7 +2,8 @@
 //  SkincareCompanionApp.swift
 //  SkincareCompanion
 //
-//  Created by Manuna Mady on 9/3/26.
+//  App entry point. Wires up the SwiftData model container that backs
+//  the user's profile, product bag, and saved routines.
 //
 
 import SwiftUI
@@ -10,9 +11,12 @@ import SwiftData
 
 @main
 struct SkincareCompanionApp: App {
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            UserProfile.self,
+            BagItem.self,
+            SavedRoutine.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -23,9 +27,14 @@ struct SkincareCompanionApp: App {
         }
     }()
 
+    init() {
+        CuteAppearance.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .tint(Theme.accent)
         }
         .modelContainer(sharedModelContainer)
     }
