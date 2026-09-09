@@ -25,6 +25,7 @@ struct Product: Identifiable, Hashable, Codable {
     enum Source: String, Codable {
         case openBeautyFacts
         case manual
+        case curated
     }
 
     var detectedActives: Set<Active> {
