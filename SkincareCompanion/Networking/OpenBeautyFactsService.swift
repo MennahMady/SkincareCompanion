@@ -21,7 +21,15 @@ protocol ProductSearching {
     func fetchProduct(barcode: String) async throws -> Product
 }
 
-final class OpenBeautyFactsService: ProductSearching {
+// `nonisolated` here is deliberate: newer Xcode versions can default a
+// whole target's actor isolation to @MainActor (a project-level Swift 6
+// concurrency setting). This is a plain networking client with no UI or
+// shared mutable state — it shouldn't be forced onto the main actor, and
+// leaving it implicitly MainActor-isolated is what caused "call to
+// main-actor-isolated initializer 'init(session:)' in a synchronous
+// nonisolated context" wherever it was constructed with a default
+// argument (see ProductSearchViewModel's init).
+nonisolated final class OpenBeautyFactsService: ProductSearching {
 
     private let session: URLSessionProtocol
     private let baseHost = "world.openbeautyfacts.org"
@@ -32,9 +40,14 @@ final class OpenBeautyFactsService: ProductSearching {
         self.decoder = JSONDecoder()
     }
 
-    /// Free-text search, restricted to the "skin care" category so
-    /// results are relevant to this app (OBF also indexes makeup,
-    /// haircare, fragrance, etc.).
+    /// Free-text search across Open Beauty Facts. We deliberately do NOT
+    /// also filter by category tag here: OBF's category tagging is
+    /// crowd-sourced and inconsistent (see README "Known limitations"),
+    /// and an additional "must be tagged skin care" filter combined with
+    /// a text search was found to return zero results for most real
+    /// queries. `ProductCategory.infer` does its best to classify
+    /// whatever comes back, and the user can always correct a product's
+    /// category after adding it (see ProductDetailView).
     func searchProducts(matching query: String) async throws -> [Product] {
         var components = URLComponents()
         components.scheme = "https"
@@ -45,7 +58,7 @@ final class OpenBeautyFactsService: ProductSearching {
             URLQueryItem(name: "search_simple", value: "1"),
             URLQueryItem(name: "action", value: "process"),
             URLQueryItem(name: "json", value: "1"),
-            URLQueryItem(name: "page_size", value: "24"),
+            URLQueryItem(name: "page_size", value: "24")
         ]
 
         guard let url = components.url else { throw NetworkError.invalidURL }

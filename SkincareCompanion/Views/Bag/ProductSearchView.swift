@@ -15,6 +15,7 @@ struct AddProductSheet: View {
 
     enum Mode: String, CaseIterable {
         case search = "🔍 Search"
+        case scan = "📷 Scan"
         case manual = "✏️ Enter Manually"
     }
 
@@ -33,10 +34,13 @@ struct AddProductSheet: View {
                                     .font(.cuteCaption(14))
                                     .padding(.vertical, 8)
                                     .frame(maxWidth: .infinity)
-                                    .background(
-                                        Capsule().fill(mode == option ? Theme.accent : Color.white)
+                                    .foregroundStyle(mode == option ? .white : Theme.onAccentText)
+                                    .glass(
+                                        cornerRadius: 100,
+                                        tint: mode == option ? Theme.accent : .white,
+                                        tintOpacity: mode == option ? 0.65 : 0.25,
+                                        material: mode == option ? .regularMaterial : .ultraThinMaterial
                                     )
-                                    .foregroundStyle(mode == option ? .white : Theme.textPrimary)
                             }
                             .buttonStyle(.plain)
                         }
@@ -45,17 +49,22 @@ struct AddProductSheet: View {
 
                     switch mode {
                     case .search:
-                        ProductSearchView(onAdd: { dismiss() })
+                        ProductSearchView()
+                    case .scan:
+                        ProductScannerView()
                     case .manual:
                         ManualProductEntryView(onAdd: { dismiss() })
                     }
                 }
             }
-            .navigationTitle("Add a Product")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("Cancel") { dismiss() }
+            .toolbar(.hidden, for: .navigationBar)
+            .safeAreaInset(edge: .top) {
+                CuteGlassHeader("Add Products") {
+                    Button("Close") { dismiss() }
+                        .buttonStyle(CuteGlassPillButtonStyle())
+                } trailing: {
+                    Button("Done") { dismiss() }
+                        .buttonStyle(CuteGlassPillButtonStyle())
                 }
             }
         }
@@ -65,7 +74,11 @@ struct AddProductSheet: View {
 struct ProductSearchView: View {
     @StateObject private var viewModel = ProductSearchViewModel()
     @Environment(\.modelContext) private var modelContext
-    let onAdd: () -> Void
+    @Query private var bagItems: [BagItem]
+
+    private var addedIDs: Set<String> {
+        Set(bagItems.map(\.id))
+    }
 
     var body: some View {
         VStack {
@@ -74,10 +87,12 @@ struct ProductSearchView: View {
                 TextField("Try \"vitamin c serum\" 💫", text: $viewModel.query)
                     .textFieldStyle(.plain)
                     .font(.cuteBody())
+                    .foregroundStyle(Theme.onAccentText)
+                    .tint(Theme.accent)
                     .autocorrectionDisabled()
             }
             .padding(12)
-            .background(RoundedRectangle(cornerRadius: 16).fill(Color.white))
+            .glass(cornerRadius: 16, tint: .white, tintOpacity: 0.3)
             .padding(.horizontal)
 
             if viewModel.isLoading {
@@ -102,31 +117,49 @@ struct ProductSearchView: View {
                 ScrollView {
                     VStack(spacing: 8) {
                         ForEach(Array(viewModel.results.enumerated()), id: \.element.id) { index, product in
+                            let isAdded = addedIDs.contains(product.id)
                             Button {
-                                add(product)
+                                toggle(product, isAdded: isAdded)
                             } label: {
-                                SearchResultRow(product: product, tint: Theme.pastel(for: index))
+                                SearchResultRow(product: product, tint: Theme.pastel(for: index), isAdded: isAdded)
                             }
                             .buttonStyle(.plain)
                         }
                     }
                     .padding()
+                    .padding(.bottom, 8)
+
+                    if !addedIDs.isEmpty {
+                        Text("\(addedIDs.count) added — tap **Done** when you're finished 🎀")
+                            .font(.cuteCaption())
+                            .foregroundStyle(Theme.textSecondary)
+                            .padding(.bottom, 16)
+                    }
                 }
             }
         }
     }
 
-    private func add(_ product: Product) {
-        let item = BagItem(product: product)
-        modelContext.insert(item)
+    /// Tapping a result adds it; tapping an already-added result removes
+    /// it again. The sheet stays open the whole time so several products
+    /// can be added in one pass — closing it (via Done/Close) is what
+    /// ends the session, not each individual tap.
+    private func toggle(_ product: Product, isAdded: Bool) {
+        if isAdded {
+            if let existing = bagItems.first(where: { $0.id == product.id }) {
+                modelContext.delete(existing)
+            }
+        } else {
+            modelContext.insert(BagItem(product: product))
+        }
         try? modelContext.save()
-        onAdd()
     }
 }
 
 private struct SearchResultRow: View {
     let product: Product
     var tint: Color = Theme.blush
+    var isAdded: Bool = false
 
     var body: some View {
         HStack(spacing: 12) {
@@ -134,7 +167,9 @@ private struct SearchResultRow: View {
                 RoundedRectangle(cornerRadius: 12).fill(tint.opacity(0.5))
                 AsyncImage(url: product.imageURL) { phase in
                     if let image = phase.image {
-                        image.resizable().aspectRatio(contentMode: .fill)
+                        image.resizable().aspectRatio(contentMode: .fit)
+                            .padding(4)
+                            .frame(width: 46, height: 46)
                             .clipShape(RoundedRectangle(cornerRadius: 12))
                     } else {
                         Image(systemName: "sparkle").foregroundStyle(Theme.textSecondary)
@@ -148,16 +183,32 @@ private struct SearchResultRow: View {
                 if let brand = product.brand {
                     Text(brand).font(.cuteCaption()).foregroundStyle(Theme.textSecondary)
                 }
-                Text(product.category.displayName)
-                    .font(.cuteCaption())
-                    .foregroundStyle(Theme.lavenderDeep)
+                HStack(spacing: 6) {
+                    Text(product.category.displayName)
+                        .font(.cuteCaption())
+                        .foregroundStyle(Theme.lavenderDeep)
+                    if let firstSkinType = product.suitableSkinTypes.first, product.suitableSkinTypes.count < SkinType.allCases.count {
+                        Text("· \(firstSkinType.displayName)\(product.suitableSkinTypes.count > 1 ? "+" : "")")
+                            .font(.cuteCaption(11))
+                            .foregroundStyle(Theme.textSecondary)
+                    }
+                    if product.source == .curated {
+                        Text("STARTER SET")
+                            .font(.system(size: 8.5, weight: .heavy, design: .rounded))
+                            .foregroundStyle(Theme.onAccentTextSecondary)
+                            .padding(.horizontal, 5)
+                            .padding(.vertical, 2)
+                            .background(Capsule().fill(Theme.mint.opacity(0.7)))
+                    }
+                }
             }
 
             Spacer()
-            Image(systemName: "plus.circle.fill")
+            Image(systemName: isAdded ? "checkmark.circle.fill" : "plus.circle.fill")
                 .font(.title3)
-                .foregroundStyle(Theme.accent)
+                .foregroundStyle(isAdded ? Theme.mint : Theme.accent)
         }
         .cuteCard()
+        .opacity(isAdded ? 0.85 : 1)
     }
 }

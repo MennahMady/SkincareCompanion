@@ -1,0 +1,2762 @@
+[
+  {
+    "name": "Foaming Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Ceramide NP, Ceramide AP, Ceramide EOP, Hyaluronic Acid, Niacinamide, Glycerin"
+  },
+  {
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Glycerin, Ceramide NP, Ceramide AP, Ceramide EOP, Hyaluronic Acid, Cholesterol"
+  },
+  {
+    "name": "SA Smoothing Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Salicylic Acid, Glycerin, Ceramide NP, Niacinamide"
+  },
+  {
+    "name": "PM Facial Moisturizing Lotion",
+    "brand": "CeraVe",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Niacinamide, Ceramide NP, Ceramide AP, Ceramide EOP, Hyaluronic Acid, Dimethicone"
+  },
+  {
+    "name": "Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Zinc PCA, Pentylene Glycol"
+  },
+  {
+    "name": "Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Sodium Hyaluronate, Panthenol"
+  },
+  {
+    "name": "Granactive Retinoid 2% in Squalane",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "ingredientsText": "Squalane, Retinol, Hydroxypinacolone Retinoate"
+  },
+  {
+    "name": "Glycolic Acid 7% Toning Solution",
+    "brand": "The Ordinary",
+    "category": "toner",
+    "ingredientsText": "Aqua, Glycolic Acid, Tasmannia Lanceolata Fruit/Leaf Extract, Aloe Vera"
+  },
+  {
+    "name": "Azelaic Acid Suspension 10%",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "ingredientsText": "Azelaic Acid, Aqua, Isodecyl Neopentanoate"
+  },
+  {
+    "name": "Buffet",
+    "brand": "The Ordinary",
+    "category": "serum",
+    "ingredientsText": "Aqua, Palmitoyl Tripeptide-1, Copper Tripeptide-1, Hyaluronic Acid"
+  },
+  {
+    "name": "Caffeine Solution 5% + EGCG",
+    "brand": "The Ordinary",
+    "category": "eyeCream",
+    "ingredientsText": "Aqua, Caffeine, Epigallocatechin Gallatyl Glucoside, Panthenol"
+  },
+  {
+    "name": "2% BHA Liquid Exfoliant",
+    "brand": "Paula's Choice",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Salicylic Acid, Butylene Glycol, Camellia Sinensis Leaf Extract"
+  },
+  {
+    "name": "C15 Super Booster",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Aqua, Ethoxydiglycol, Tocopherol"
+  },
+  {
+    "name": "Vitamin C Complex Serum",
+    "brand": "Naturium",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Sodium Ascorbyl Phosphate, Ferulic Acid"
+  },
+  {
+    "name": "Niacinamide Serum 12% Plus Zinc 2%",
+    "brand": "Naturium",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Zinc PCA"
+  },
+  {
+    "name": "Anthelios Melt-in Milk SPF 60",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "ingredientsText": "Homosalate, Octocrylene, Avobenzone, Octisalate, Glycerin"
+  },
+  {
+    "name": "Toleriane Double Repair Face Moisturizer",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Niacinamide, Ceramide NP, Dimethicone"
+  },
+  {
+    "name": "UV Clear Broad-Spectrum SPF 46",
+    "brand": "EltaMD",
+    "category": "sunscreen",
+    "ingredientsText": "Zinc Oxide, Octinoxate, Niacinamide, Hyaluronic Acid"
+  },
+  {
+    "name": "Unseen Sunscreen SPF 40",
+    "brand": "Supergoop",
+    "category": "sunscreen",
+    "ingredientsText": "Avobenzone, Homosalate, Octisalate, Octocrylene"
+  },
+  {
+    "name": "Hydro Boost Water Gel",
+    "brand": "Neutrogena",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Dimethicone, Glycerin, Hyaluronic Acid"
+  },
+  {
+    "name": "Rapid Wrinkle Repair Serum",
+    "brand": "Neutrogena",
+    "category": "serum",
+    "ingredientsText": "Aqua, Retinol, Hyaluronic Acid, Glycerin"
+  },
+  {
+    "name": "Gentle Skin Cleanser",
+    "brand": "Cetaphil",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Cetyl Alcohol, Propylene Glycol, Sodium Lauryl Sulfate"
+  },
+  {
+    "name": "Advanced Snail 96 Mucin Power Essence",
+    "brand": "COSRX",
+    "category": "serum",
+    "ingredientsText": "Snail Secretion Filtrate, Betaine, Sodium Hyaluronate"
+  },
+  {
+    "name": "AHA/BHA Clarifying Treatment Toner",
+    "brand": "COSRX",
+    "category": "toner",
+    "ingredientsText": "Aqua, Glycolic Acid, Salicylic Acid, Betaine Salicylate"
+  },
+  {
+    "name": "Salicylic Acid Daily Gentle Cleanser",
+    "brand": "COSRX",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Salicylic Acid, Betaine Salicylate"
+  },
+  {
+    "name": "Watermelon Glow Niacinamide Dew Drops",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Citrullus Lanatus (Watermelon) Fruit Extract, Hyaluronic Acid"
+  },
+  {
+    "name": "Plum Plump Hyaluronic Acid Serum",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Prunus Domestica (Plum) Extract, Panthenol"
+  },
+  {
+    "name": "Watermelon Glow PHA + BHA Pore-Tight Toner",
+    "brand": "Glow Recipe",
+    "category": "toner",
+    "ingredientsText": "Aqua, Gluconolactone, Salicylic Acid, Citrullus Lanatus (Watermelon) Fruit Extract"
+  },
+  {
+    "name": "C-Firma Day Serum",
+    "brand": "Drunk Elephant",
+    "category": "serum",
+    "ingredientsText": "L-Ascorbic Acid, Aqua, Ferulic Acid, Tocopherol"
+  },
+  {
+    "name": "T.L.C. Framboos Glycolic Night Serum",
+    "brand": "Drunk Elephant",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Glycolic Acid, Lactic Acid, Salicylic Acid, Rubus Idaeus (Raspberry) Extract"
+  },
+  {
+    "name": "Protini Polypeptide Cream",
+    "brand": "Drunk Elephant",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Signal Peptide Complex, Niacinamide"
+  },
+  {
+    "name": "The Water Cream",
+    "brand": "Tatcha",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Rosa Roxburghii Fruit Extract, Hyaluronic Acid"
+  },
+  {
+    "name": "The Dewy Skin Cream",
+    "brand": "Tatcha",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Squalane, Hyaluronic Acid"
+  },
+  {
+    "name": "Good Genes All-In-One Lactic Acid Treatment",
+    "brand": "Sunday Riley",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Lactic Acid, Glycyrrhiza Glabra (Licorice) Root Extract"
+  },
+  {
+    "name": "A+ High-Dose Retinoid Serum",
+    "brand": "Sunday Riley",
+    "category": "serum",
+    "ingredientsText": "Retinoid Ester Blend, Squalane, Tanacetum Annuum (Blue Tansy) Oil"
+  },
+  {
+    "name": "Superfood Antioxidant Cleanser",
+    "brand": "Youth To The People",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Kale Extract, Spinach Extract, Green Tea Extract, Glycerin"
+  },
+  {
+    "name": "Ultra Repair Cream",
+    "brand": "First Aid Beauty",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Colloidal Oatmeal, Shea Butter, Ceramide NP"
+  },
+  {
+    "name": "Midnight Recovery Concentrate",
+    "brand": "Kiehl's",
+    "category": "faceOil",
+    "ingredientsText": "Squalane, Lavandula Angustifolia (Lavender) Oil, Oenothera Biennis (Evening Primrose) Oil"
+  },
+  {
+    "name": "Dramatically Different Moisturizing Lotion+",
+    "brand": "Clinique",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Hyaluronic Acid, Dimethicone"
+  },
+  {
+    "name": "GinZing Energy-Boosting Moisturizer",
+    "brand": "Origins",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Caffeine, Panax Ginseng Root Extract, Glycerin"
+  },
+  {
+    "name": "Fat Water Pore-Refining Toner",
+    "brand": "Fenty Skin",
+    "category": "toner",
+    "ingredientsText": "Aqua, Niacinamide, Salicylic Acid, Kombucha Extract"
+  },
+  {
+    "name": "Glow Deep Serum: Rice + Alpha Arbutin",
+    "brand": "Beauty of Joseon",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Alpha-Arbutin, Oryza Sativa (Rice) Extract"
+  },
+  {
+    "name": "Relief Sun: Rice + Probiotics SPF 50",
+    "brand": "Beauty of Joseon",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Oryza Sativa (Rice) Extract"
+  },
+  {
+    "name": "AHA BHA PHA 30 Days Miracle Toner",
+    "brand": "Some By Mi",
+    "category": "toner",
+    "ingredientsText": "Aqua, Glycolic Acid, Salicylic Acid, Gluconolactone, Melaleuca Alternifolia (Tea Tree) Extract"
+  },
+  {
+    "name": "Water Drench Hyaluronic Cloud Cream",
+    "brand": "Peter Thomas Roth",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Glycerin, Squalane"
+  },
+  {
+    "name": "Living Cleansing Balm",
+    "brand": "Then I Met You",
+    "category": "cleanser",
+    "ingredientsText": "Simmondsia Chinensis (Jojoba) Seed Oil, Olea Europaea (Olive) Fruit Oil, Cera Alba"
+  },
+  {
+    "name": "Madagascar Centella Ampoule",
+    "brand": "Skin1004",
+    "category": "serum",
+    "ingredientsText": "Centella Asiatica Extract, Aqua, Panthenol, Niacinamide"
+  },
+  {
+    "name": "Centella Green Level Buffet Serum",
+    "brand": "Purito",
+    "category": "serum",
+    "ingredientsText": "Centella Asiatica Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Super Volcanic Pore Clay Mask 2X",
+    "brand": "Innisfree",
+    "category": "mask",
+    "ingredientsText": "Aqua, Kaolin, Bentonite, Jeju Volcanic Cluster"
+  },
+  {
+    "name": "Acne Foaming Wash 10% Benzoyl Peroxide",
+    "brand": "PanOxyl",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Benzoyl Peroxide, Glycerin"
+  },
+  {
+    "name": "Jet Lag Mask",
+    "brand": "Summer Fridays",
+    "category": "mask",
+    "ingredientsText": "Aqua, Glycerin, Squalane, Niacinamide, Tocopherol"
+  },
+  {
+    "name": "CC Me Serum",
+    "brand": "Summer Fridays",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Niacinamide, Ferulic Acid"
+  },
+  {
+    "name": "Barrier Restore Cream",
+    "brand": "Rhode",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Ceramide NP, Squalane, Peptide Complex"
+  },
+  {
+    "name": "Glazing Milk",
+    "brand": "Rhode",
+    "category": "toner",
+    "ingredientsText": "Aqua, Niacinamide, Glycerin, Peptide Complex, Panthenol"
+  },
+  {
+    "name": "Water Sleeping Mask",
+    "brand": "Laneige",
+    "category": "mask",
+    "ingredientsText": "Aqua, Glycerin, Hyaluronic Acid, Evening Primrose Extract"
+  },
+  {
+    "name": "Soy Face Cleanser",
+    "brand": "Fresh",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Glycine Soja (Soybean) Extract, Glycerin, Cucumber Extract"
+  },
+  {
+    "name": "Rose Deep Hydration Toner",
+    "brand": "Fresh",
+    "category": "toner",
+    "ingredientsText": "Aqua, Rosa Damascena Flower Water, Glycerin, Hyaluronic Acid"
+  },
+  {
+    "name": "Cicapair Tiger Grass Color Correcting Treatment",
+    "brand": "Dr. Jart+",
+    "category": "treatment",
+    "ingredientsText": "Centella Asiatica Extract, Aqua, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Ceramidin Cream",
+    "brand": "Dr. Jart+",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Glycerin, Shea Butter, Panthenol"
+  },
+  {
+    "name": "Rapid Age Spot and Pigment Lightening Serum",
+    "brand": "Murad",
+    "category": "serum",
+    "ingredientsText": "Aqua, Glycolic Acid, Hexylresorcinol, Ascorbic Acid"
+  },
+  {
+    "name": "Invisiblur Perfecting Shield SPF 30",
+    "brand": "Murad",
+    "category": "sunscreen",
+    "ingredientsText": "Homosalate, Octisalate, Octocrylene, Niacinamide"
+  },
+  {
+    "name": "Calm + Restore Oat Gel Moisturizer",
+    "brand": "Aveeno",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Colloidal Oatmeal, Glycerin, Feverfew Extract"
+  },
+  {
+    "name": "Regenerist Micro-Sculpting Cream",
+    "brand": "Olay",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Niacinamide, Hyaluronic Acid, Dimethicone"
+  },
+  {
+    "name": "Mineral 89 Hyaluronic Acid Booster",
+    "brand": "Vichy",
+    "category": "serum",
+    "ingredientsText": "Vichy Volcanic Mineralizing Water, Hyaluronic Acid, Glycerin"
+  },
+  {
+    "name": "Sensibio H2O Micellar Water",
+    "brand": "Bioderma",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, PEG-6 Caprylic/Capric Glycerides, Cucumber Extract, Mannitol"
+  },
+  {
+    "name": "Green Clean Cleansing Balm",
+    "brand": "Farmacy",
+    "category": "cleanser",
+    "ingredientsText": "Sunflower Seed Oil, Papaya Extract, Moringa Extract, Beeswax"
+  },
+  {
+    "name": "So Polished Exfoliating Sugar Scrub",
+    "brand": "Tula",
+    "category": "exfoliant",
+    "ingredientsText": "Sucrose, Probiotic Extracts, Blueberry Extract, Coconut Oil"
+  },
+  {
+    "name": "Pro-Collagen Marine Cream",
+    "brand": "Elemis",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Padina Pavonica Algae Extract, Glycerin, Squalane"
+  },
+  {
+    "name": "Vinoperfect Radiance Serum",
+    "brand": "Caudalie",
+    "category": "serum",
+    "ingredientsText": "Aqua, Viniferine, Glycerin, Grape Extract"
+  },
+  {
+    "name": "Hyaluronic Acid Toner Serum",
+    "brand": "Isntree",
+    "category": "toner",
+    "ingredientsText": "Aqua, Sodium Hyaluronate, Panthenol, Betaine"
+  },
+  {
+    "name": "1025 Dokdo Toner",
+    "brand": "Round Lab",
+    "category": "toner",
+    "ingredientsText": "Deep Sea Water, Niacinamide, Panthenol, Betaine"
+  },
+  {
+    "name": "Supple Preparation Facial Toner",
+    "brand": "Klairs",
+    "category": "toner",
+    "ingredientsText": "Aqua, Glycerin, Beta-Glucan, Centella Asiatica Extract"
+  },
+  {
+    "name": "Barrier+ Triple Lipid-Peptide Cream",
+    "brand": "Skinfix",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Cholesterol, Peptide Complex, Squalane"
+  },
+  {
+    "name": "Squalane + Vitamin C Rose Oil",
+    "brand": "Biossance",
+    "category": "faceOil",
+    "ingredientsText": "Squalane, Ascorbyl Tetraisopalmitate, Rosa Damascena Flower Oil"
+  },
+  {
+    "name": "Rev Up Retinol Serum",
+    "brand": "Kosas",
+    "category": "serum",
+    "ingredientsText": "Aqua, Retinol, Bakuchiol, Squalane, Niacinamide"
+  },
+  {
+    "name": "Confidence in a Cream",
+    "brand": "IT Cosmetics",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Hyaluronic Acid, Ceramide NP, Colloidal Oatmeal"
+  },
+  {
+    "name": "Magic Cream",
+    "brand": "Charlotte Tilbury",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Shea Butter, Hyaluronic Acid, Vitamin E"
+  },
+  {
+    "name": "Revitalift Derm Intensives 1.5% Pure Hyaluronic Acid Serum",
+    "brand": "L'Oreal Paris",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Glycerin, Sodium Hyaluronate"
+  },
+  {
+    "name": "Adaptogen Deep Moisture Cream",
+    "brand": "Youth To The People",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Reishi Mushroom Extract, Ashwagandha Extract, Glycerin"
+  },
+  {
+    "name": "Skin Balancing Pore-Reducing Toner",
+    "brand": "Paula's Choice",
+    "category": "toner",
+    "ingredientsText": "Aqua, Niacinamide, Butylene Glycol, Panthenol"
+  },
+  {
+    "name": "Retinaldehyde 0.05% Cream",
+    "brand": "Naturium",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Retinaldehyde, Squalane, Niacinamide"
+  },
+  {
+    "name": "Glowscreen SPF 40",
+    "brand": "Supergoop",
+    "category": "sunscreen",
+    "ingredientsText": "Homosalate, Octisalate, Octocrylene, Hyaluronic Acid, Niacinamide"
+  },
+  {
+    "name": "Adapalene Gel 0.1% Acne Treatment",
+    "brand": "Differin",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Adapalene, Carbomer, Edetate Disodium"
+  },
+  {
+    "name": "Triple Lipid Restore 2:4:2",
+    "brand": "SkinCeuticals",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Cholesterol, Fatty Acids, Niacinamide"
+  },
+  {
+    "name": "C E Ferulic",
+    "brand": "SkinCeuticals",
+    "category": "serum",
+    "ingredientsText": "L-Ascorbic Acid, Aqua, Ferulic Acid, Tocopherol"
+  },
+  {
+    "name": "Nu-Derm Clear",
+    "brand": "Obagi",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Hydroquinone, Glycerin, Tocopheryl Acetate"
+  },
+  {
+    "name": "Professional Vitamin C Serum",
+    "brand": "Obagi",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Glycerin, Ferulic Acid"
+  },
+  {
+    "name": "Pro-Heal Serum Advance+",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "ingredientsText": "Aqua, Glycolic Acid, Salicylic Acid, Olive Leaf Extract"
+  },
+  {
+    "name": "Active Serum",
+    "brand": "iS Clinical",
+    "category": "serum",
+    "ingredientsText": "Aqua, Glycolic Acid, Lactic Acid, Salicylic Acid"
+  },
+  {
+    "name": "Special Cleansing Gel",
+    "brand": "Dermalogica",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Cocamidopropyl Betaine, Lavender Extract, Balm Mint Extract"
+  },
+  {
+    "name": "Daily Microfoliant",
+    "brand": "Dermalogica",
+    "category": "exfoliant",
+    "ingredientsText": "Rice Powder, Papain, Salicylic Acid, Rice Extract"
+  },
+  {
+    "name": "Marine Enzyme Age Corrective Peel",
+    "brand": "Eminence Organics",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Papain, Pineapple Extract, Kelp Extract"
+  },
+  {
+    "name": "Calm Skin Chamomile Cleanser",
+    "brand": "Eminence Organics",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Chamomile Extract, Glycerin, Aloe Vera"
+  },
+  {
+    "name": "Ultimune Power Infusing Concentrate",
+    "brand": "Shiseido",
+    "category": "serum",
+    "ingredientsText": "Aqua, Glycerin, Iris Extract, Reishi Mushroom Extract"
+  },
+  {
+    "name": "Benefiance Wrinkle Smoothing Cream",
+    "brand": "Shiseido",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Retinol, Peptide Complex"
+  },
+  {
+    "name": "Facial Treatment Essence",
+    "brand": "SK-II",
+    "category": "toner",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Aqua, Butylene Glycol"
+  },
+  {
+    "name": "Advanced Night Repair Serum",
+    "brand": "Estee Lauder",
+    "category": "serum",
+    "ingredientsText": "Aqua, Bifida Ferment Lysate, Hyaluronic Acid, Salicylic Acid"
+  },
+  {
+    "name": "Genifique Advanced Serum",
+    "brand": "Lancome",
+    "category": "serum",
+    "ingredientsText": "Aqua, Bifidus Prebiotic, Hyaluronic Acid, Glycerin"
+  },
+  {
+    "name": "Milky Jelly Cleanser",
+    "brand": "Glossier",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Glycerin, Sunflower Seed Oil, Aloe Vera"
+  },
+  {
+    "name": "Priming Moisturizer",
+    "brand": "Glossier",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Squalane, Niacinamide"
+  },
+  {
+    "name": "Golden Hour Recovery Cream Oil",
+    "brand": "Versed",
+    "category": "faceOil",
+    "ingredientsText": "Squalane, Rosehip Oil, Vitamin E, Chamomile Extract"
+  },
+  {
+    "name": "Great Barrier Relief",
+    "brand": "Krave Beauty",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Centella Asiatica Extract, Ceramide NP, Panthenol"
+  },
+  {
+    "name": "Beet The Sun SPF 40",
+    "brand": "Krave Beauty",
+    "category": "sunscreen",
+    "ingredientsText": "Homosalate, Octisalate, Octocrylene, Beet Extract"
+  },
+  {
+    "name": "Snail Repair Cream",
+    "brand": "Mizon",
+    "category": "moisturizer",
+    "ingredientsText": "Snail Secretion Filtrate, Aqua, Glycerin, Adenosine"
+  },
+  {
+    "name": "SoonJung 2x Barrier Intensive Cream",
+    "brand": "Etude",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Panthenol, Madecassoside, Ceramide NP"
+  },
+  {
+    "name": "Time Revolution The First Treatment Essence",
+    "brand": "Missha",
+    "category": "toner",
+    "ingredientsText": "Saccharomyces/Rice Ferment Filtrate, Aqua, Niacinamide"
+  },
+  {
+    "name": "Dive-In Low Molecular Hyaluronic Acid Serum",
+    "brand": "Torriden",
+    "category": "serum",
+    "ingredientsText": "Aqua, Sodium Hyaluronate, Panthenol, Betaine"
+  },
+  {
+    "name": "Heartleaf 77% Soothing Toner",
+    "brand": "Anua",
+    "category": "toner",
+    "ingredientsText": "Houttuynia Cordata Extract, Aqua, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Heartleaf Pore Control Cleansing Oil",
+    "brand": "Anua",
+    "category": "cleanser",
+    "ingredientsText": "Houttuynia Cordata Extract, Olive Oil, Sunflower Seed Oil"
+  },
+  {
+    "name": "No.3 Skin Softening Serum",
+    "brand": "Numbuzin",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Panthenol, Adenosine"
+  },
+  {
+    "name": "Ceramide Ato Concentrate Cream",
+    "brand": "Illiyoon",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Panthenol, Madecassoside"
+  },
+  {
+    "name": "The True Cream Aqua Bomb",
+    "brand": "Belif",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Comfrey Leaf Extract, Squalane"
+  },
+  {
+    "name": "First Care Activating Serum",
+    "brand": "Sulwhasoo",
+    "category": "serum",
+    "ingredientsText": "Aqua, Glycerin, Ginseng Root Extract, Butylene Glycol"
+  },
+  {
+    "name": "Low pH Pore Deep Cleansing Foam",
+    "brand": "Pyunkang Yul",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Coco-Glucoside, Panthenol, Aloe Vera"
+  },
+  {
+    "name": "Bifida Biome Essence",
+    "brand": "Ma:nyo",
+    "category": "toner",
+    "ingredientsText": "Bifida Ferment Lysate, Aqua, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Green Tangerine Vita C Serum",
+    "brand": "Goodal",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Citrus Extract, Niacinamide"
+  },
+  {
+    "name": "Dark Spot Correcting Serum",
+    "brand": "By Wishtrend",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Alpha-Arbutin, Tranexamic Acid"
+  },
+  {
+    "name": "Mandelic Acid 5% Skin Prep Water",
+    "brand": "By Wishtrend",
+    "category": "toner",
+    "ingredientsText": "Aqua, Mandelic Acid, Betaine, Panthenol"
+  },
+  {
+    "name": "Vital C Hydrating Cleanser",
+    "brand": "Image Skincare",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Vitamin C, Glycerin, Aloe Vera"
+  },
+  {
+    "name": "Nectifirm Advanced",
+    "brand": "Revision Skincare",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Peptide Complex, Shea Butter, Glycerin"
+  },
+  {
+    "name": "Total Eye 3-in-1 Renewal Therapy",
+    "brand": "Colorescience",
+    "category": "eyeCream",
+    "ingredientsText": "Aqua, Peptide Complex, Caffeine, Niacinamide"
+  },
+  {
+    "name": "Goat Milk Cleanser",
+    "brand": "Kate Somerville",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Goat Milk, Glycerin, Coconut-Derived Cleansers"
+  },
+  {
+    "name": "ExfoliKate Intensive Exfoliating Treatment",
+    "brand": "Kate Somerville",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Glycolic Acid, Lactic Acid, Papaya Extract"
+  },
+  {
+    "name": "Intensive Clarity Treatment 0.5% Retinol",
+    "brand": "PCA Skin",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Retinol, Squalane, Niacinamide"
+  },
+  {
+    "name": "Restorative Skin Complex",
+    "brand": "Alastin",
+    "category": "serum",
+    "ingredientsText": "Aqua, Peptide Complex, Antioxidant Blend, Glycerin"
+  },
+  {
+    "name": "Growth Factor Serum",
+    "brand": "ZO Skin Health",
+    "category": "serum",
+    "ingredientsText": "Aqua, Peptide Complex, Hyaluronic Acid, Niacinamide"
+  },
+  {
+    "name": "Trio Rebalancing Moisture Cream",
+    "brand": "Skinbetter Science",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Peptide Complex, Glycerin"
+  },
+  {
+    "name": "Thermale Spring Water Spray",
+    "brand": "Avene",
+    "category": "toner",
+    "ingredientsText": "Avene Thermal Spring Water"
+  },
+  {
+    "name": "Hydrance Optimale Moisturizing Rich Cream",
+    "brand": "Avene",
+    "category": "moisturizer",
+    "ingredientsText": "Avene Thermal Spring Water, Glycerin, Hyaluronic Acid"
+  },
+  {
+    "name": "Bariederm Cica Cream",
+    "brand": "Uriage",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Madecassoside, Copper Zinc Sulfate, Glycerin"
+  },
+  {
+    "name": "Lait-Creme Concentre",
+    "brand": "Embryolisse",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Shea Butter, Beeswax"
+  },
+  {
+    "name": "Reve de Miel Face Cream",
+    "brand": "Nuxe",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Honey Extract, Glycerin, Shea Butter"
+  },
+  {
+    "name": "Skin Food Nourishing Cream",
+    "brand": "Weleda",
+    "category": "moisturizer",
+    "ingredientsText": "Sunflower Seed Oil, Beeswax, Calendula Extract, Aqua"
+  },
+  {
+    "name": "Facial Cleansing Oil",
+    "brand": "Burt's Bees",
+    "category": "cleanser",
+    "ingredientsText": "Sunflower Seed Oil, Sweet Almond Oil, Vitamin E"
+  },
+  {
+    "name": "Micellar Cleansing Water",
+    "brand": "Garnier",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, PEG-6 Caprylic/Capric Glycerides, Cucumber Extract"
+  },
+  {
+    "name": "Water Boost Hydrating Gel Cream",
+    "brand": "Garnier",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Aloe Vera, Glycerin"
+  },
+  {
+    "name": "Kind To Skin Hydrating Light Moisturizer",
+    "brand": "Simple",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Panthenol, Vitamin E"
+  },
+  {
+    "name": "Soft Moisturizing Cream",
+    "brand": "Nivea",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Jojoba Oil, Vitamin E"
+  },
+  {
+    "name": "Rich Moisture Cream",
+    "brand": "Pond's",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Niacinamide, Mineral Oil"
+  },
+  {
+    "name": "Holy Hydration Face Cream",
+    "brand": "e.l.f. Skin",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Ceramide NP, Niacinamide"
+  },
+  {
+    "name": "Power Shot Vitamin Bright Serum",
+    "brand": "Banila Co",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Alpha-Arbutin, Vitamin C"
+  },
+  {
+    "name": "Clean It Zero Cleansing Balm",
+    "brand": "Banila Co",
+    "category": "cleanser",
+    "ingredientsText": "Mineral Oil, Sunflower Seed Oil, Rosemary Extract"
+  },
+  {
+    "name": "Zero Pore Pad 2.0",
+    "brand": "Medicube",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Salicylic Acid, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Red Bomb Peptide Cream",
+    "brand": "Medicube",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Peptide Complex, Centella Asiatica Extract, Squalane"
+  },
+  {
+    "name": "Red Blemish Clear Soothing Cream",
+    "brand": "Dr.G",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Centella Asiatica Extract, Panthenol, Madecassoside"
+  },
+  {
+    "name": "Atobarrier 365 Cream",
+    "brand": "Aestura",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Panthenol, Squalane"
+  },
+  {
+    "name": "Snail Bee High Content Essence",
+    "brand": "Benton",
+    "category": "serum",
+    "ingredientsText": "Snail Secretion Filtrate, Aqua, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Skin Fit Solution Sunscreen SPF50+",
+    "brand": "Torriden",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Rice Enzyme Powder Wash",
+    "brand": "Tatcha",
+    "category": "cleanser",
+    "ingredientsText": "Rice Powder, Papain, Rice Bran, Aqua"
+  },
+  {
+    "name": "Dewy Skin Mist",
+    "brand": "Tatcha",
+    "category": "toner",
+    "ingredientsText": "Aqua, Glycerin, Squalane, Rosa Roxburghii Fruit Extract"
+  },
+  {
+    "name": "Bio-Complex Moisturizing Face Cream",
+    "brand": "Kiehl's",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Vitamin E, Glycerin"
+  },
+  {
+    "name": "Ultra Facial Cream",
+    "brand": "Kiehl's",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Squalane, Antarcticine"
+  },
+  {
+    "name": "Take The Day Off Cleansing Balm",
+    "brand": "Clinique",
+    "category": "cleanser",
+    "ingredientsText": "Mineral Oil, Vitamin E, Shea Butter"
+  },
+  {
+    "name": "Moisture Surge 100H Gel Cream",
+    "brand": "Clinique",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Hyaluronic Acid, Aloe Vera"
+  },
+  {
+    "name": "Original Skin Retexturizing Mask",
+    "brand": "Origins",
+    "category": "mask",
+    "ingredientsText": "Kaolin, Willowherb Extract, Salicylic Acid"
+  },
+  {
+    "name": "Checks and Balances Frothy Face Wash",
+    "brand": "Origins",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Rice Protein, Glycerin, Sea Fennel Extract"
+  },
+  {
+    "name": "Radical Skincare Age-Defying Eye Repair",
+    "brand": "Fenty Skin",
+    "category": "eyeCream",
+    "ingredientsText": "Aqua, Caffeine, Peptide Complex, Niacinamide"
+  },
+  {
+    "name": "Total Cleans'r Remove-It-All Cleanser",
+    "brand": "Fenty Skin",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Willow Bark Extract, Papaya Extract, Glycerin"
+  },
+  {
+    "name": "Revive Eye Serum: Ginseng + Retinal",
+    "brand": "Beauty of Joseon",
+    "category": "eyeCream",
+    "ingredientsText": "Aqua, Retinal, Panax Ginseng Root Extract, Niacinamide"
+  },
+  {
+    "name": "Dynasty Cream",
+    "brand": "Beauty of Joseon",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ginseng Root Extract, Honey Extract, Niacinamide"
+  },
+  {
+    "name": "Snail Truecica Miracle Repair Cream",
+    "brand": "Some By Mi",
+    "category": "moisturizer",
+    "ingredientsText": "Snail Secretion Filtrate, Centella Asiatica Extract, Niacinamide"
+  },
+  {
+    "name": "Water Drench Hyaluronic Acid Serum",
+    "brand": "Peter Thomas Roth",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Glycerin, Panthenol"
+  },
+  {
+    "name": "FirmX Peptide Collagen Serum",
+    "brand": "Peter Thomas Roth",
+    "category": "serum",
+    "ingredientsText": "Aqua, Peptide Complex, Collagen, Glycerin"
+  },
+  {
+    "name": "Give Me Sun Balm Melting Sun Serum SPF 50",
+    "brand": "Then I Met You",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Camellia Sinensis Leaf Extract"
+  },
+  {
+    "name": "Madagascar Centella Asiatica Cream",
+    "brand": "Skin1004",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Aqua, Panthenol, Ceramide NP"
+  },
+  {
+    "name": "Madagascar Centella Tone Brightening Capsule Cream",
+    "brand": "Skin1004",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Wonder Black Tea 78 Essence",
+    "brand": "Purito",
+    "category": "serum",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Aqua, Niacinamide"
+  },
+  {
+    "name": "Deep Sea Water Cleansing Foam",
+    "brand": "Round Lab",
+    "category": "cleanser",
+    "ingredientsText": "Deep Sea Water, Coco-Glucoside, Panthenol"
+  },
+  {
+    "name": "Birch Juice Moisturizing Sunscreen SPF50+",
+    "brand": "Round Lab",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Betula Platyphylla Juice"
+  },
+  {
+    "name": "Rich Moist Soothing Cream",
+    "brand": "Klairs",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Centella Asiatica Extract, Shea Butter, Beta-Glucan"
+  },
+  {
+    "name": "Freshly Juiced Vitamin Drop",
+    "brand": "Klairs",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Aqua, Beta-Glucan, Panthenol"
+  },
+  {
+    "name": "Green Tea Hyaluronic Acid Serum",
+    "brand": "Isntree",
+    "category": "serum",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Sodium Hyaluronate, Aqua"
+  },
+  {
+    "name": "Squalane + Omega Repair Cream",
+    "brand": "Biossance",
+    "category": "moisturizer",
+    "ingredientsText": "Squalane, Omega Fatty Acids, Ceramide NP, Niacinamide"
+  },
+  {
+    "name": "100% Squalane Oil",
+    "brand": "Biossance",
+    "category": "faceOil",
+    "ingredientsText": "Squalane"
+  },
+  {
+    "name": "Superfood Air-Whip Moisture Cream",
+    "brand": "Youth To The People",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Kale Extract, Hyaluronic Acid"
+  },
+  {
+    "name": "Superfood Cleansing Balm",
+    "brand": "Youth To The People",
+    "category": "cleanser",
+    "ingredientsText": "Sunflower Seed Oil, Kale Extract, Spinach Extract"
+  },
+  {
+    "name": "Resist Anti-Aging Antioxidant Serum",
+    "brand": "Paula's Choice",
+    "category": "serum",
+    "ingredientsText": "Aqua, Vitamin C, Vitamin E, Green Tea Extract"
+  },
+  {
+    "name": "Clinical 1% Retinol Treatment",
+    "brand": "Paula's Choice",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Retinol, Peptide Complex, Squalane"
+  },
+  {
+    "name": "Bright Boost Brightening Essence",
+    "brand": "Naturium",
+    "category": "toner",
+    "ingredientsText": "Aqua, Niacinamide, Tranexamic Acid, Panthenol"
+  },
+  {
+    "name": "Salicylic Acid 5% Serum",
+    "brand": "Naturium",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Salicylic Acid, Panthenol, Niacinamide"
+  },
+  {
+    "name": "Renewing SA Cleanser",
+    "brand": "CeraVe",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Salicylic Acid, Niacinamide, Ceramide NP"
+  },
+  {
+    "name": "Skin Renewing Retinol Serum",
+    "brand": "CeraVe",
+    "category": "serum",
+    "ingredientsText": "Aqua, Retinol, Niacinamide, Ceramide NP"
+  },
+  {
+    "name": "Eye Repair Cream",
+    "brand": "CeraVe",
+    "category": "eyeCream",
+    "ingredientsText": "Aqua, Niacinamide, Hyaluronic Acid, Ceramide NP"
+  },
+  {
+    "name": "Vitamin C Ferulic Acid Spot Treatment",
+    "brand": "The Ordinary",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Ascorbic Acid, Ferulic Acid, Retinol"
+  },
+  {
+    "name": "Salicylic Acid 2% Solution",
+    "brand": "The Ordinary",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Salicylic Acid, Butylene Glycol"
+  },
+  {
+    "name": "Mandelic Acid 10% + HA",
+    "brand": "The Ordinary",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Mandelic Acid, Hyaluronic Acid, Tasmannia Lanceolata Extract"
+  },
+  {
+    "name": "Multi-Peptide Serum for Hair Density",
+    "brand": "The Ordinary",
+    "category": "other",
+    "ingredientsText": "Aqua, Peptide Complex, Biotin, Panthenol"
+  },
+  {
+    "name": "Anthelios UVMune 400 Invisible Fluid SPF 50+",
+    "brand": "La Roche-Posay",
+    "category": "sunscreen",
+    "ingredientsText": "Mexoryl 400, Homosalate, Octocrylene"
+  },
+  {
+    "name": "Effaclar Duo Dual Action Acne Treatment",
+    "brand": "La Roche-Posay",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Benzoyl Peroxide, Salicylic Acid, Niacinamide"
+  },
+  {
+    "name": "Cicaplast Baume B5",
+    "brand": "La Roche-Posay",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Madecassoside, Panthenol, Shea Butter"
+  },
+  {
+    "name": "UV Physical Broad-Spectrum SPF 41",
+    "brand": "EltaMD",
+    "category": "sunscreen",
+    "ingredientsText": "Zinc Oxide, Titanium Dioxide, Niacinamide"
+  },
+  {
+    "name": "PM Therapy Facial Moisturizer",
+    "brand": "EltaMD",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Ceramide NP, Niacinamide"
+  },
+  {
+    "name": "Play Everyday Lotion SPF 50",
+    "brand": "Supergoop",
+    "category": "sunscreen",
+    "ingredientsText": "Avobenzone, Homosalate, Octisalate, Vitamin E"
+  },
+  {
+    "name": "Watery Sunscreen SPF 50",
+    "brand": "Innisfree",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Green Tea Extract"
+  },
+  {
+    "name": "Green Tea Seed Serum",
+    "brand": "Innisfree",
+    "category": "serum",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Aqua, Hyaluronic Acid"
+  },
+  {
+    "name": "Hydro Boost Cleansing Gel",
+    "brand": "Neutrogena",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Glycerin, Coco-Glucoside"
+  },
+  {
+    "name": "Ultra Sheer Dry-Touch Sunscreen SPF 100",
+    "brand": "Neutrogena",
+    "category": "sunscreen",
+    "ingredientsText": "Avobenzone, Homosalate, Octisalate, Octocrylene"
+  },
+  {
+    "name": "Bright Boost Brightening Gel Cream",
+    "brand": "Neutrogena",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Niacinamide, Glycerin, Vitamin C"
+  },
+  {
+    "name": "Daily Facial Moisturizer SPF 15",
+    "brand": "Cetaphil",
+    "category": "sunscreen",
+    "ingredientsText": "Aqua, Octinoxate, Zinc Oxide, Glycerin"
+  },
+  {
+    "name": "Oil Absorbing Moisturizer",
+    "brand": "Cetaphil",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Niacinamide, Dimethicone, Glycerin"
+  },
+  {
+    "name": "Redness Relief Daily Moisturizer SPF 20",
+    "brand": "Cetaphil",
+    "category": "sunscreen",
+    "ingredientsText": "Aqua, Octinoxate, Titanium Dioxide, Caffeine"
+  },
+  {
+    "name": "Positively Radiant Brightening Daily Moisturizer SPF 30",
+    "brand": "Aveeno",
+    "category": "sunscreen",
+    "ingredientsText": "Aqua, Octinoxate, Soy Extract, Glycerin"
+  },
+  {
+    "name": "Ultra-Calming Hydrating Gel Cream",
+    "brand": "Aveeno",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Feverfew Extract, Glycerin, Ceramide NP"
+  },
+  {
+    "name": "Total Effects 7-in-1 Anti-Aging Moisturizer",
+    "brand": "Olay",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Niacinamide, Vitamin E, Glycerin"
+  },
+  {
+    "name": "Super Serum Vitamin C + Peptide 24",
+    "brand": "Olay",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Peptide Complex, Niacinamide"
+  },
+  {
+    "name": "Idealia Life Plumping Day Cream",
+    "brand": "Vichy",
+    "category": "moisturizer",
+    "ingredientsText": "Vichy Volcanic Mineralizing Water, Glycerin, Vitamin C"
+  },
+  {
+    "name": "Slow Age Cream SPF 25",
+    "brand": "Vichy",
+    "category": "sunscreen",
+    "ingredientsText": "Vichy Volcanic Mineralizing Water, Baicalin, Octinoxate"
+  },
+  {
+    "name": "Hydrabio H2O Micellar Water",
+    "brand": "Bioderma",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, PEG-6 Caprylic/Capric Glycerides, Gluconolactone"
+  },
+  {
+    "name": "Green Clean Makeup Removing Cleansing Balm",
+    "brand": "Farmacy",
+    "category": "cleanser",
+    "ingredientsText": "Sunflower Seed Oil, Papaya Extract, Rosemary Extract"
+  },
+  {
+    "name": "Honeymoon Glow AHA Resurfacing Night Serum",
+    "brand": "Farmacy",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Glycolic Acid, Lactic Acid, Honey Extract"
+  },
+  {
+    "name": "24-7 Moisture Hydrating Serum",
+    "brand": "Tula",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Probiotic Extracts, Blueberry Extract"
+  },
+  {
+    "name": "Pro-Collagen Cleansing Balm",
+    "brand": "Elemis",
+    "category": "cleanser",
+    "ingredientsText": "Sunflower Seed Oil, Beeswax, Optimcelle"
+  },
+  {
+    "name": "Superstart Probiotic Boost",
+    "brand": "Elemis",
+    "category": "serum",
+    "ingredientsText": "Aqua, Probiotic Extracts, Glycerin, Padina Pavonica Extract"
+  },
+  {
+    "name": "Vinopure Skin Perfecting Serum",
+    "brand": "Caudalie",
+    "category": "serum",
+    "ingredientsText": "Aqua, Salicylic Acid, Niacinamide, Grape Extract"
+  },
+  {
+    "name": "Beauty Elixir",
+    "brand": "Caudalie",
+    "category": "toner",
+    "ingredientsText": "Aqua, Alcohol, Rosemary Extract, Orange Blossom Extract"
+  },
+  {
+    "name": "Full Cast Cream",
+    "brand": "Skinfix",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Peptide Complex, Squalane"
+  },
+  {
+    "name": "Squalane + BHA Pore-Minimizing Toner",
+    "brand": "Biossance",
+    "category": "toner",
+    "ingredientsText": "Aqua, Salicylic Acid, Squalane, Niacinamide"
+  },
+  {
+    "name": "Big Barrier Moisturizer",
+    "brand": "Kosas",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Squalane, Niacinamide"
+  },
+  {
+    "name": "Confidence in a Cleanser",
+    "brand": "IT Cosmetics",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Ceramide NP, Colloidal Oatmeal, Glycerin"
+  },
+  {
+    "name": "Pillow Talk Skin Serum",
+    "brand": "Charlotte Tilbury",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Niacinamide, Peptide Complex"
+  },
+  {
+    "name": "Airbrush Flawless Setting Spray",
+    "brand": "Charlotte Tilbury",
+    "category": "other",
+    "ingredientsText": "Aqua, Glycerin, Panthenol"
+  },
+  {
+    "name": "Revitalift Triple Power Anti-Aging Moisturizer",
+    "brand": "L'Oreal Paris",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Hyaluronic Acid, Pro-Xylane"
+  },
+  {
+    "name": "Age Perfect Rosy Tone Moisturizer",
+    "brand": "L'Oreal Paris",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, LHA, Niacinamide"
+  },
+  {
+    "name": "Clear Face Sunscreen SPF 55",
+    "brand": "Neutrogena",
+    "category": "sunscreen",
+    "ingredientsText": "Avobenzone, Homosalate, Octisalate, Octocrylene"
+  },
+  {
+    "name": "Deep Clean Gentle Scrub",
+    "brand": "Neutrogena",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Hydrated Silica, Glycerin, Salicylic Acid"
+  },
+  {
+    "name": "Advanced Skin Repair Cream",
+    "brand": "Eucerin",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide NP, Hyaluronic Acid, Licochalcone"
+  },
+  {
+    "name": "Roughness Relief Cream",
+    "brand": "Eucerin",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Urea, Ceramide NP, Glycerin"
+  },
+  {
+    "name": "Calming Relief Cream",
+    "brand": "Physiogel",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Shea Butter, Panthenol"
+  },
+  {
+    "name": "Anessa Perfect UV Sunscreen Skincare Milk SPF 50+",
+    "brand": "Anessa",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Hyaluronic Acid"
+  },
+  {
+    "name": "UV Aqua Rich Watery Essence SPF 50+",
+    "brand": "Biore",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Hyaluronic Acid, Royal Jelly Extract"
+  },
+  {
+    "name": "Gokujyun Premium Lotion",
+    "brand": "Hada Labo",
+    "category": "toner",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Sodium Hyaluronate, Glycerin"
+  },
+  {
+    "name": "Perfect Gel Moisturizer",
+    "brand": "Hada Labo",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Glycerin, Panthenol"
+  },
+  {
+    "name": "Moisture Facial Cream",
+    "brand": "Curel",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Ceramide Functional Ingredient, Glycerin, Eucalyptus Extract"
+  },
+  {
+    "name": "Deep Cleansing Oil",
+    "brand": "DHC",
+    "category": "cleanser",
+    "ingredientsText": "Olive Oil, Rosemary Extract, Vitamin E"
+  },
+  {
+    "name": "Madecassoside Cream",
+    "brand": "A'pieu",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Aqua, Panthenol"
+  },
+  {
+    "name": "Green Tea Balancing Skin Refiner",
+    "brand": "Innisfree",
+    "category": "toner",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Aqua, Butylene Glycol"
+  },
+  {
+    "name": "Retinol Cica Repair Serum",
+    "brand": "Innisfree",
+    "category": "serum",
+    "ingredientsText": "Retinol, Centella Asiatica Extract, Squalane, Niacinamide"
+  },
+  {
+    "name": "SoonJung pH 5.5 Relief Toner",
+    "brand": "Etude",
+    "category": "toner",
+    "ingredientsText": "Aqua, Panthenol, Madecassoside, Betaine"
+  },
+  {
+    "name": "Dear, Klairs Freshly Juiced Vitamin E Mask",
+    "brand": "Klairs",
+    "category": "mask",
+    "ingredientsText": "Aqua, Tocopherol, Beta-Glucan, Panthenol"
+  },
+  {
+    "name": "Chok Chok Green Tea Moisture Serum",
+    "brand": "Tonymoly",
+    "category": "serum",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Aqua, Hyaluronic Acid"
+  },
+  {
+    "name": "Egg Pore Tightening Serum",
+    "brand": "Tonymoly",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Egg Extract, Witch Hazel Extract"
+  },
+  {
+    "name": "Rice Mask Wash Off",
+    "brand": "Skinfood",
+    "category": "mask",
+    "ingredientsText": "Rice Extract, Kaolin, Aqua, Rice Bran Water"
+  },
+  {
+    "name": "Black Bean Anti-Aging Line Repair Serum",
+    "brand": "Skinfood",
+    "category": "serum",
+    "ingredientsText": "Black Bean Extract, Aqua, Peptide Complex"
+  },
+  {
+    "name": "Soothing & Moisture Aloe Vera 92% Soothing Gel",
+    "brand": "Nature Republic",
+    "category": "moisturizer",
+    "ingredientsText": "Aloe Barbadensis Leaf Extract, Aqua, Glycerin"
+  },
+  {
+    "name": "Prestige Ginseng Gold Cream",
+    "brand": "It's Skin",
+    "category": "moisturizer",
+    "ingredientsText": "Panax Ginseng Root Extract, Aqua, Glycerin, Gold Extract"
+  },
+  {
+    "name": "N.M.F Aquaring Ampoule Essence",
+    "brand": "It's Skin",
+    "category": "serum",
+    "ingredientsText": "Aqua, Sodium Hyaluronate, Amino Acid Complex"
+  },
+  {
+    "name": "Madecassoside Cream",
+    "brand": "Neogen",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Aqua, Ceramide NP"
+  },
+  {
+    "name": "Real Ferment Micro Essence",
+    "brand": "Neogen",
+    "category": "toner",
+    "ingredientsText": "Bifida Ferment Lysate, Aqua, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Cicaplast B5+ Baume",
+    "brand": "Erborian",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Madecassoside, Panthenol, Centella Asiatica Extract"
+  },
+  {
+    "name": "Multi-Vitamin Sleeping Mask",
+    "brand": "Erborian",
+    "category": "mask",
+    "ingredientsText": "Aqua, Vitamin Complex, Ginseng Root Extract, Glycerin"
+  },
+  {
+    "name": "Organic Sea Kelp Bioferment Treatment Essence",
+    "brand": "Whamisa",
+    "category": "toner",
+    "ingredientsText": "Sea Kelp Bioferment, Aqua, Organic Fruit Extracts"
+  },
+  {
+    "name": "Deep Rich Cream",
+    "brand": "Whamisa",
+    "category": "moisturizer",
+    "ingredientsText": "Organic Fruit Ferment Extracts, Aqua, Shea Butter"
+  },
+  {
+    "name": "Retinol Correxion Deep Wrinkle Night Cream",
+    "brand": "RoC",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Retinol, Glycerin, Dimethicone"
+  },
+  {
+    "name": "Multi Correxion 5 in 1 Anti-Aging Cream",
+    "brand": "RoC",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Niacinamide, Glycerin, Antioxidant Complex"
+  },
+  {
+    "name": "Rapid Tone Repair Dark Spot Serum",
+    "brand": "Neutrogena",
+    "category": "serum",
+    "ingredientsText": "Aqua, Retinol SA, Vitamin C, Niacinamide"
+  },
+  {
+    "name": "Blemish Control Cleansing Gel",
+    "brand": "Proactiv",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Benzoyl Peroxide, Glycolic Acid"
+  },
+  {
+    "name": "Emergency Blemish Relief",
+    "brand": "Proactiv",
+    "category": "treatment",
+    "ingredientsText": "Aqua, Sulfur, Salicylic Acid, Aloe Vera"
+  },
+  {
+    "name": "SOS Rescue Spray",
+    "brand": "Tower 28",
+    "category": "toner",
+    "ingredientsText": "Aqua, Hypochlorous Acid, Aloe Vera"
+  },
+  {
+    "name": "SunnyDays SPF 30 Tinted Sunscreen",
+    "brand": "Tower 28",
+    "category": "sunscreen",
+    "ingredientsText": "Zinc Oxide, Titanium Dioxide, Niacinamide"
+  },
+  {
+    "name": "Instant Line Smoother",
+    "brand": "Necessaire",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Peptide Complex, Glycerin"
+  },
+  {
+    "name": "The Serum",
+    "brand": "Necessaire",
+    "category": "serum",
+    "ingredientsText": "Aqua, Niacinamide, Hyaluronic Acid, Zinc PCA"
+  },
+  {
+    "name": "Forget Me, Not Serum",
+    "brand": "Dieux",
+    "category": "serum",
+    "ingredientsText": "Aqua, Squalane, Peptide Complex, Ceramide NP"
+  },
+  {
+    "name": "Instant Angel Skincare Mist Serum",
+    "brand": "Dieux",
+    "category": "toner",
+    "ingredientsText": "Aqua, Niacinamide, Panthenol, Hyaluronic Acid"
+  },
+  {
+    "name": "Watermelon Sunscreen SPF 30",
+    "brand": "Glow Recipe",
+    "category": "sunscreen",
+    "ingredientsText": "Zinc Oxide, Titanium Dioxide, Watermelon Extract"
+  },
+  {
+    "name": "Guava Vitamin C Dark Spot Serum",
+    "brand": "Glow Recipe",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Guava Extract, Niacinamide"
+  },
+  {
+    "name": "Alpha Beta Universal Daily Peel",
+    "brand": "Dr. Dennis Gross",
+    "category": "exfoliant",
+    "ingredientsText": "Glycolic Acid, Lactic Acid, Salicylic Acid, Malic Acid"
+  },
+  {
+    "name": "Ferulic + Retinol Wrinkle Recovery Overnight Serum",
+    "brand": "Dr. Dennis Gross",
+    "category": "serum",
+    "ingredientsText": "Retinol, Ferulic Acid, Squalane, Peptide Complex"
+  },
+  {
+    "name": "Purity Made Simple Cleanser",
+    "brand": "Philosophy",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Glycerin, Chamomile Extract, Cucumber Extract"
+  },
+  {
+    "name": "Renewed Hope in a Jar Moisturizer",
+    "brand": "Philosophy",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Shea Butter, Antioxidant Complex"
+  },
+  {
+    "name": "Umbrian Clay Purifying Mask",
+    "brand": "Fresh",
+    "category": "mask",
+    "ingredientsText": "Kaolin, Umbrian Clay, Aqua, Chamomile Extract"
+  },
+  {
+    "name": "Black Tea Age-Delay Firming Serum",
+    "brand": "Fresh",
+    "category": "serum",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Aqua, Peptide Complex"
+  },
+  {
+    "name": "A Perfect World Age-Defense Moisturizer",
+    "brand": "Origins",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, White Tea Extract, Glycerin, Antioxidant Complex"
+  },
+  {
+    "name": "Argan Oil Jelly Cleanser",
+    "brand": "Josie Maran",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Argan Oil, Glycerin, Coco-Glucoside"
+  },
+  {
+    "name": "100% Pure Argan Oil",
+    "brand": "Josie Maran",
+    "category": "faceOil",
+    "ingredientsText": "Argania Spinosa (Argan) Kernel Oil"
+  },
+  {
+    "name": "Bakuchiol Retinol Alternative Serum",
+    "brand": "Herbivore Botanicals",
+    "category": "serum",
+    "ingredientsText": "Aqua, Bakuchiol, Squalane, Hyaluronic Acid"
+  },
+  {
+    "name": "Prism Exfoliating Glow Facial Oil",
+    "brand": "Herbivore Botanicals",
+    "category": "faceOil",
+    "ingredientsText": "Grapeseed Oil, Papaya Extract, Fruit Acid Blend"
+  },
+  {
+    "name": "CoQ-10 Toner",
+    "brand": "Indie Lee",
+    "category": "toner",
+    "ingredientsText": "Aqua, Coenzyme Q10, Aloe Vera, Witch Hazel"
+  },
+  {
+    "name": "Brightening Cleanser",
+    "brand": "Indie Lee",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Vitamin C, Glycerin, Aloe Vera"
+  },
+  {
+    "name": "Vitamin C Suspension 20%",
+    "brand": "One Love Organics",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Squalane, Vitamin E"
+  },
+  {
+    "name": "Skin Dew Superberry Hydrogel",
+    "brand": "One Love Organics",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Berry Extract Complex, Hyaluronic Acid"
+  },
+  {
+    "name": "Clear Skin Probiotic Cleansing Gel",
+    "brand": "True Botanicals",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Probiotic Extracts, Aloe Vera, Chamomile Extract"
+  },
+  {
+    "name": "Renew Repair Serum",
+    "brand": "True Botanicals",
+    "category": "serum",
+    "ingredientsText": "Aqua, Vitamin C, Peptide Complex, Squalane"
+  },
+  {
+    "name": "Black Tea Cleansing Oil",
+    "brand": "Osmia",
+    "category": "cleanser",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Olive Oil, Castor Oil"
+  },
+  {
+    "name": "Vitamin C Serum",
+    "brand": "Marie Veronique",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Ferulic Acid, Vitamin E"
+  },
+  {
+    "name": "Everyday Gentle Cleanser",
+    "brand": "Marie Veronique",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Glycerin, Aloe Vera, Coco-Glucoside"
+  },
+  {
+    "name": "Fruit Enzyme Wash",
+    "brand": "100% Pure",
+    "category": "cleanser",
+    "ingredientsText": "Aqua, Fruit Enzyme Complex, Aloe Vera, Glycerin"
+  },
+  {
+    "name": "Multi-Vitamin PM Facial Oil",
+    "brand": "100% Pure",
+    "category": "faceOil",
+    "ingredientsText": "Jojoba Oil, Vitamin Complex, Rosehip Oil"
+  },
+  {
+    "name": "Camellia and Rose Cleansing Balm",
+    "brand": "Pai Skincare",
+    "category": "cleanser",
+    "ingredientsText": "Camellia Oleifera Seed Oil, Rosa Damascena Extract, Beeswax"
+  },
+  {
+    "name": "BioAffinity Tonic",
+    "brand": "Pai Skincare",
+    "category": "toner",
+    "ingredientsText": "Aqua, Chamomile Extract, Rose Water, Aloe Vera"
+  },
+  {
+    "name": "Rosa Mosqueta Instant Boost Serum",
+    "brand": "REN Clean Skincare",
+    "category": "serum",
+    "ingredientsText": "Rosa Mosqueta Seed Oil, Squalane, Vitamin E"
+  },
+  {
+    "name": "Ready Steady Glow Daily AHA Tonic",
+    "brand": "REN Clean Skincare",
+    "category": "toner",
+    "ingredientsText": "Aqua, Lactic Acid, Salicylic Acid, Aloe Vera"
+  },
+  {
+    "name": "The Cream",
+    "brand": "Votary",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Squalane, Rosehip Oil, Vitamin E"
+  },
+  {
+    "name": "Super Seed Facial Oil",
+    "brand": "Votary",
+    "category": "faceOil",
+    "ingredientsText": "Rosehip Oil, Pumpkin Seed Oil, Sea Buckthorn Oil"
+  },
+  {
+    "name": "Active Botanical Serum",
+    "brand": "Vintner's Daughter",
+    "category": "serum",
+    "ingredientsText": "Grapeseed Oil, Sunflower Oil, Botanical Extract Blend"
+  },
+  {
+    "name": "The Rich Cream",
+    "brand": "Augustinus Bader",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, TFC8 Complex, Glycerin, Squalane"
+  },
+  {
+    "name": "The Serum",
+    "brand": "Augustinus Bader",
+    "category": "serum",
+    "ingredientsText": "Aqua, TFC8 Complex, Hyaluronic Acid, Vitamin E"
+  },
+  {
+    "name": "The Good C Vitamin C Serum",
+    "brand": "Dr. Barbara Sturm",
+    "category": "serum",
+    "ingredientsText": "Aqua, Ascorbic Acid, Hyaluronic Acid, Purslane Extract"
+  },
+  {
+    "name": "Hyaluronic Serum",
+    "brand": "Dr. Barbara Sturm",
+    "category": "serum",
+    "ingredientsText": "Aqua, Hyaluronic Acid, Purslane Extract, Panthenol"
+  },
+  {
+    "name": "Creme de la Mer",
+    "brand": "La Mer",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Miracle Broth, Mineral Oil, Glycerin"
+  },
+  {
+    "name": "The Treatment Lotion",
+    "brand": "La Mer",
+    "category": "toner",
+    "ingredientsText": "Aqua, Miracle Broth, Glycerin, Algae Extract"
+  },
+  {
+    "name": "Skin Caviar Luxe Cream",
+    "brand": "La Prairie",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Caviar Extract, Glycerin, Peptide Complex"
+  },
+  {
+    "name": "White Caviar Illuminating Serum",
+    "brand": "La Prairie",
+    "category": "serum",
+    "ingredientsText": "Aqua, Caviar Extract, Niacinamide, Vitamin C"
+  },
+  {
+    "name": "Black Rose Cream Mask",
+    "brand": "Sisley Paris",
+    "category": "mask",
+    "ingredientsText": "Rosa Damascena Extract, Shea Butter, Aqua"
+  },
+  {
+    "name": "Supremya Night Cream",
+    "brand": "Sisley Paris",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Botanical Extract Blend, Shea Butter, Glycerin"
+  },
+  {
+    "name": "Double Serum",
+    "brand": "Clarins",
+    "category": "serum",
+    "ingredientsText": "Aqua, Alcohol Denat, Botanical Extract Blend, Turmeric Extract"
+  },
+  {
+    "name": "Hydra-Essentiel Cream",
+    "brand": "Clarins",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Glycerin, Katafray Bark Extract, Hyaluronic Acid"
+  },
+  {
+    "name": "Aquasource Refill Cream",
+    "brand": "Biotherm",
+    "category": "moisturizer",
+    "ingredientsText": "Life Plankton Extract, Aqua, Glycerin"
+  },
+  {
+    "name": "Blue Therapy Serum",
+    "brand": "Biotherm",
+    "category": "serum",
+    "ingredientsText": "Aqua, Algae Extract Complex, Glycerin, Peptide Complex"
+  },
+  {
+    "name": "Orchidee Imperiale Cream",
+    "brand": "Guerlain",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Orchid Extract, Glycerin, Peptide Complex"
+  },
+  {
+    "name": "Abeille Royale Serum",
+    "brand": "Guerlain",
+    "category": "serum",
+    "ingredientsText": "Aqua, Royal Jelly Extract, Honey Extract, Glycerin"
+  },
+  {
+    "name": "Sublimage Essential Cream",
+    "brand": "Chanel",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Vanilla Planifolia Extract, Glycerin, Squalane"
+  },
+  {
+    "name": "Hydra Beauty Micro Serum",
+    "brand": "Chanel",
+    "category": "serum",
+    "ingredientsText": "Aqua, Camellia Extract, Hyaluronic Acid, Glycerin"
+  },
+  {
+    "name": "Capture Totale Super Potent Serum",
+    "brand": "Dior",
+    "category": "serum",
+    "ingredientsText": "Aqua, Longoza Extract, Hyaluronic Acid, Niacinamide"
+  },
+  {
+    "name": "Hydra Life Sorbet Water Cream",
+    "brand": "Dior",
+    "category": "moisturizer",
+    "ingredientsText": "Aqua, Mimosa Extract, Glycerin, Hyaluronic Acid"
+  },
+  {
+    "name": "Pure Shot Nutrition Nectar",
+    "brand": "Yves Saint Laurent",
+    "category": "faceOil",
+    "ingredientsText": "Grapeseed Oil, Rosehip Oil, Vitamin E"
+  },
+  {
+    "name": "Reset Micro-Peeling Cleanser",
+    "brand": "Yves Saint Laurent",
+    "category": "exfoliant",
+    "ingredientsText": "Aqua, Fruit Acid Blend, Glycerin"
+  },
+  {
+    "name": "Low pH Good Morning Gel Cleanser",
+    "brand": "COSRX",
+    "category": "cleanser",
+    "ingredientsText": "Water, Tea Tree Leaf Water, Betaine Salicylate, Coco-Glucoside, Panthenol"
+  },
+  {
+    "name": "BHA Blackhead Power Liquid",
+    "brand": "COSRX",
+    "category": "exfoliant",
+    "ingredientsText": "Water, Betaine Salicylate, Willow Bark Water, Butylene Glycol"
+  },
+  {
+    "name": "Centella Blemish Cream",
+    "brand": "COSRX",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Panthenol, Niacinamide"
+  },
+  {
+    "name": "Propolis Light Ampule",
+    "brand": "COSRX",
+    "category": "serum",
+    "ingredientsText": "Propolis Extract 72.7%, Niacinamide, Sodium Hyaluronate"
+  },
+  {
+    "name": "The Vitamin C 23 Serum",
+    "brand": "COSRX",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid 23%, Tocopherol, Sodium Hyaluronate"
+  },
+  {
+    "name": "Snail Mucin Eye Cream",
+    "brand": "COSRX",
+    "category": "eyeCream",
+    "ingredientsText": "Snail Secretion Filtrate, Caffeine, Panthenol, Adenosine"
+  },
+  {
+    "name": "Aloe Soothing Sun Cream SPF50",
+    "brand": "COSRX",
+    "category": "sunscreen",
+    "ingredientsText": "Aloe Barbadensis Leaf Extract, Zinc Oxide, Titanium Dioxide, Niacinamide"
+  },
+  {
+    "name": "Relief Sun: Rice + Probiotics SPF50+",
+    "brand": "Beauty of Joseon",
+    "category": "sunscreen",
+    "ingredientsText": "Rice Extract, Probiotic Ferment, Titanium Dioxide, Zinc Oxide"
+  },
+  {
+    "name": "Ginseng Essence Water",
+    "brand": "Beauty of Joseon",
+    "category": "toner",
+    "ingredientsText": "Panax Ginseng Root Water, Niacinamide, Adenosine, Betaine"
+  },
+  {
+    "name": "Radiance Cleansing Balm",
+    "brand": "Beauty of Joseon",
+    "category": "cleanser",
+    "ingredientsText": "Camellia Japonica Seed Oil, Olive Oil, Sunflower Seed Oil"
+  },
+  {
+    "name": "Green Plum Refreshing Toner",
+    "brand": "Beauty of Joseon",
+    "category": "toner",
+    "ingredientsText": "Prunus Mume Fruit Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Niacinamide 10% + Zinc 1% Serum",
+    "brand": "Anua",
+    "category": "serum",
+    "ingredientsText": "Niacinamide 10%, Zinc PCA 1%, Sodium Hyaluronate"
+  },
+  {
+    "name": "Peach 70% Niacinamide Serum",
+    "brand": "Anua",
+    "category": "serum",
+    "ingredientsText": "Prunus Persica Fruit Extract, Niacinamide 70%, Adenosine"
+  },
+  {
+    "name": "Heartleaf Quercetinol Pore Deep Cleansing Foam",
+    "brand": "Anua",
+    "category": "cleanser",
+    "ingredientsText": "Houttuynia Cordata Extract, Quercetin, Coco-Betaine"
+  },
+  {
+    "name": "Birch Juice Moisturizing Sunscreen",
+    "brand": "Round Lab",
+    "category": "sunscreen",
+    "ingredientsText": "Birch Juice, Titanium Dioxide, Zinc Oxide, Niacinamide"
+  },
+  {
+    "name": "Birch Juice Moisturizing Cream",
+    "brand": "Round Lab",
+    "category": "moisturizer",
+    "ingredientsText": "Birch Juice, Ceramide NP, Panthenol, Squalane"
+  },
+  {
+    "name": "Mugwort Calming Serum",
+    "brand": "Round Lab",
+    "category": "serum",
+    "ingredientsText": "Artemisia Princeps Extract, Panthenol, Madecassoside"
+  },
+  {
+    "name": "Dokdo Cleansing Oil",
+    "brand": "Round Lab",
+    "category": "cleanser",
+    "ingredientsText": "Deep Sea Water, Olive Oil, Sunflower Seed Oil"
+  },
+  {
+    "name": "DIVE-IN Low Molecule Hyaluronic Acid Serum",
+    "brand": "Torriden",
+    "category": "serum",
+    "ingredientsText": "Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Panthenol"
+  },
+  {
+    "name": "DIVE-IN Low Molecular Hyaluronic Acid Cleansing Foam",
+    "brand": "Torriden",
+    "category": "cleanser",
+    "ingredientsText": "Sodium Hyaluronate, Coco-Betaine, Panthenol"
+  },
+  {
+    "name": "Balancitrin Low pH Gentle Cleansing Foam",
+    "brand": "Torriden",
+    "category": "cleanser",
+    "ingredientsText": "Centella Asiatica Extract, Betaine Salicylate, Coco-Glucoside"
+  },
+  {
+    "name": "Dive-In Aqua Soothing Sunscreen SPF50+",
+    "brand": "Torriden",
+    "category": "sunscreen",
+    "ingredientsText": "Sodium Hyaluronate, Titanium Dioxide, Zinc Oxide, Panthenol"
+  },
+  {
+    "name": "Hyaluronic Acid Toner Gel",
+    "brand": "Isntree",
+    "category": "toner",
+    "ingredientsText": "Sodium Hyaluronate, Betaine, Panthenol, Allantoin"
+  },
+  {
+    "name": "Green Tea Fresh Toner",
+    "brand": "Isntree",
+    "category": "toner",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Chestnut AHA 8% Clear Essence",
+    "brand": "Isntree",
+    "category": "exfoliant",
+    "ingredientsText": "Glycolic Acid 8%, Castanea Sativa Extract, Panthenol"
+  },
+  {
+    "name": "Onion Newpair Serum",
+    "brand": "Isntree",
+    "category": "serum",
+    "ingredientsText": "Allium Cepa Bulb Extract, Niacinamide, Centella Asiatica Extract"
+  },
+  {
+    "name": "Hyaluronic Acid Watery Sun Gel SPF50+",
+    "brand": "Isntree",
+    "category": "sunscreen",
+    "ingredientsText": "Sodium Hyaluronate, Titanium Dioxide, Zinc Oxide"
+  },
+  {
+    "name": "Madagascar Centella Asiatica 100 Toning Toner",
+    "brand": "Skin1004",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Madagascar Centella Light Cleansing Oil",
+    "brand": "Skin1004",
+    "category": "cleanser",
+    "ingredientsText": "Centella Asiatica Extract, Olive Oil, Jojoba Seed Oil"
+  },
+  {
+    "name": "Madagascar Centella Air-Fit Sun Cushion SPF50+",
+    "brand": "Skin1004",
+    "category": "sunscreen",
+    "ingredientsText": "Centella Asiatica Extract, Titanium Dioxide, Zinc Oxide"
+  },
+  {
+    "name": "Centella Green Level Unscented Sun SPF50+",
+    "brand": "Purito",
+    "category": "sunscreen",
+    "ingredientsText": "Centella Asiatica Extract, Titanium Dioxide, Zinc Oxide"
+  },
+  {
+    "name": "Deep Sea Water Cleansing Foam",
+    "brand": "Purito",
+    "category": "cleanser",
+    "ingredientsText": "Deep Sea Water, Coco-Betaine, Panthenol"
+  },
+  {
+    "name": "Wonder Releaf Centella Balm",
+    "brand": "Purito",
+    "category": "treatment",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Panthenol"
+  },
+  {
+    "name": "AHA BHA PHA 30 Days Miracle Serum",
+    "brand": "Some By Mi",
+    "category": "serum",
+    "ingredientsText": "Tea Tree Leaf Water, Niacinamide, Salicylic Acid"
+  },
+  {
+    "name": "Galactomyces Pure Vitamin C Glow Serum",
+    "brand": "Some By Mi",
+    "category": "serum",
+    "ingredientsText": "Galactomyces Ferment Filtrate, Ascorbic Acid, Niacinamide"
+  },
+  {
+    "name": "Red Tea Tree Cica Calming Toner",
+    "brand": "Some By Mi",
+    "category": "toner",
+    "ingredientsText": "Tea Tree Leaf Water, Centella Asiatica Extract, Panthenol"
+  },
+  {
+    "name": "Rice Toner",
+    "brand": "I'm From",
+    "category": "toner",
+    "ingredientsText": "Rice Extract 77.8%, Niacinamide, Betaine"
+  },
+  {
+    "name": "Mugwort Essence",
+    "brand": "I'm From",
+    "category": "serum",
+    "ingredientsText": "Artemisia Princeps Extract 100%, Panthenol"
+  },
+  {
+    "name": "Honey Mask",
+    "brand": "I'm From",
+    "category": "mask",
+    "ingredientsText": "Honey Extract 68.5%, Propolis Extract, Royal Jelly Extract"
+  },
+  {
+    "name": "Vitamin Tone-Up Cream",
+    "brand": "I'm From",
+    "category": "moisturizer",
+    "ingredientsText": "Citrus Extracts Complex, Niacinamide, Vitamin C Derivative"
+  },
+  {
+    "name": "Ceramide Ato Lotion",
+    "brand": "Illiyoon",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Panthenol, Glycerin"
+  },
+  {
+    "name": "Cicapair Tiger Grass Cream",
+    "brand": "Dr. Jart+",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Niacinamide"
+  },
+  {
+    "name": "Ceramidin Liquid",
+    "brand": "Dr. Jart+",
+    "category": "toner",
+    "ingredientsText": "Ceramide, Panthenol, Betaine"
+  },
+  {
+    "name": "Cicapair Tiger Grass Serum",
+    "brand": "Dr. Jart+",
+    "category": "serum",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Niacinamide"
+  },
+  {
+    "name": "Retinol Cica Repair Ampoule",
+    "brand": "Innisfree",
+    "category": "serum",
+    "ingredientsText": "Retinol, Centella Asiatica Extract, Madecassoside"
+  },
+  {
+    "name": "Bija Trouble Facial Oil",
+    "brand": "Innisfree",
+    "category": "faceOil",
+    "ingredientsText": "Camellia Japonica Seed Oil, Tea Tree Leaf Oil"
+  },
+  {
+    "name": "No-Sebum Mineral Powder Sunscreen SPF50+",
+    "brand": "Innisfree",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Silica"
+  },
+  {
+    "name": "Cream Skin Refiner",
+    "brand": "Laneige",
+    "category": "toner",
+    "ingredientsText": "White Leaf Tea Water, Niacinamide, Ceramide"
+  },
+  {
+    "name": "Water Bank Blue Hyaluronic Cream",
+    "brand": "Laneige",
+    "category": "moisturizer",
+    "ingredientsText": "Sodium Hyaluronate, Blue Hyaluronic Acid, Panthenol"
+  },
+  {
+    "name": "Lip Sleeping Mask",
+    "brand": "Laneige",
+    "category": "treatment",
+    "ingredientsText": "Shea Butter, Vitamin C, Grape Extract, Murumuru Seed Butter"
+  },
+  {
+    "name": "SoonJung Hydro Barrier Cream",
+    "brand": "Etude",
+    "category": "moisturizer",
+    "ingredientsText": "Panthenol, Madecassoside, Centella Asiatica Extract"
+  },
+  {
+    "name": "Bean Essence",
+    "brand": "Mixsoon",
+    "category": "serum",
+    "ingredientsText": "Glycine Soja Seed Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Galactomyces 95 Essence Toner",
+    "brand": "Mixsoon",
+    "category": "toner",
+    "ingredientsText": "Galactomyces Ferment Filtrate 95%, Niacinamide"
+  },
+  {
+    "name": "Centella Cica Cream",
+    "brand": "Mixsoon",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Shea Butter"
+  },
+  {
+    "name": "No.5 Vitamin Niacinamide Concentrated Serum",
+    "brand": "Numbuzin",
+    "category": "serum",
+    "ingredientsText": "Niacinamide 20%, Ascorbyl Glucoside, Sodium Hyaluronate"
+  },
+  {
+    "name": "No.4 Skin-Loving Vitamin Serum",
+    "brand": "Numbuzin",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Giving Essence",
+    "brand": "Then I Met You",
+    "category": "serum",
+    "ingredientsText": "Camellia Japonica Seed Oil, Squalane, Adenosine"
+  },
+  {
+    "name": "Freshly Juiced Vitamin C Serum",
+    "brand": "Klairs",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid 5%, Niacinamide, Centella Asiatica Extract"
+  },
+  {
+    "name": "Midnight Blue Calming Cream",
+    "brand": "Klairs",
+    "category": "moisturizer",
+    "ingredientsText": "Guaiazulene, Centella Asiatica Extract, Panthenol"
+  },
+  {
+    "name": "Essence Toner",
+    "brand": "Pyunkang Yul",
+    "category": "toner",
+    "ingredientsText": "Water, Glycerin, Panthenol, Allantoin"
+  },
+  {
+    "name": "Nutrition Cream",
+    "brand": "Pyunkang Yul",
+    "category": "moisturizer",
+    "ingredientsText": "Shea Butter, Ceramide NP, Squalane"
+  },
+  {
+    "name": "Bio-Peel Gauze Peeling Wine",
+    "brand": "Neogen",
+    "category": "exfoliant",
+    "ingredientsText": "Glycolic Acid, Lactic Acid, Wine Extract"
+  },
+  {
+    "name": "All Around Safe Block Essence Sun SPF45",
+    "brand": "Missha",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Niacinamide"
+  },
+  {
+    "name": "Clean It Zero Cleansing Balm Original",
+    "brand": "Banila Co",
+    "category": "cleanser",
+    "ingredientsText": "Mineral Oil, Sunflower Seed Oil, Shea Butter"
+  },
+  {
+    "name": "Green Tangerine Vita C Dark Spot Serum",
+    "brand": "Hanyul",
+    "category": "serum",
+    "ingredientsText": "Citrus Unshiu Peel Extract, Ascorbic Acid, Niacinamide"
+  },
+  {
+    "name": "Reedle Shot 100",
+    "brand": "VT Cosmetics",
+    "category": "serum",
+    "ingredientsText": "Hyaluronic Acid, Niacinamide, Adenosine, Panthenol"
+  },
+  {
+    "name": "Cica Cream",
+    "brand": "VT Cosmetics",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Panthenol"
+  },
+  {
+    "name": "Heartleaf Spot Pad",
+    "brand": "Abib",
+    "category": "treatment",
+    "ingredientsText": "Houttuynia Cordata Extract, Salicylic Acid, Panthenol"
+  },
+  {
+    "name": "Collagen Eye Patch Jelly Sheet",
+    "brand": "Abib",
+    "category": "eyeCream",
+    "ingredientsText": "Hydrolyzed Collagen, Adenosine, Panthenol"
+  },
+  {
+    "name": "Green Tangerine Vita C Dark Spot Care Serum",
+    "brand": "Goodal",
+    "category": "serum",
+    "ingredientsText": "Citrus Unshiu Peel Extract, Ascorbic Acid, Niacinamide"
+  },
+  {
+    "name": "Houttuynia Cordata Calming Toner Pad",
+    "brand": "Goodal",
+    "category": "toner",
+    "ingredientsText": "Houttuynia Cordata Extract, Panthenol, Allantoin"
+  },
+  {
+    "name": "Pure Cleansing Oil",
+    "brand": "Ma:nyo",
+    "category": "cleanser",
+    "ingredientsText": "Olive Oil, Jojoba Seed Oil, Vitamin E"
+  },
+  {
+    "name": "Bifida Biome Complex Ampoule",
+    "brand": "Ma:nyo",
+    "category": "serum",
+    "ingredientsText": "Bifida Ferment Lysate, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Collagen Jella Cream",
+    "brand": "Medicube",
+    "category": "moisturizer",
+    "ingredientsText": "Hydrolyzed Collagen, Adenosine, Shea Butter"
+  },
+  {
+    "name": "Red Erasing Cream",
+    "brand": "Medicube",
+    "category": "treatment",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Panthenol"
+  },
+  {
+    "name": "Collagen Hydro Gel Mask",
+    "brand": "Biodance",
+    "category": "mask",
+    "ingredientsText": "Hydrolyzed Collagen, Sodium Hyaluronate, Adenosine"
+  },
+  {
+    "name": "Skin Essentials Cica Care Water Toner",
+    "brand": "Rovectin",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Panthenol, Allantoin"
+  },
+  {
+    "name": "Cicabarrier Regeneration Blue Capsule Cream",
+    "brand": "Rovectin",
+    "category": "moisturizer",
+    "ingredientsText": "Centella Asiatica Extract, Ceramide NP, Squalane"
+  },
+  {
+    "name": "Milk Skin Toner",
+    "brand": "Tirtir",
+    "category": "toner",
+    "ingredientsText": "Milk Protein, Niacinamide, Panthenol, Betaine"
+  },
+  {
+    "name": "Aqua Sun Gel Cream SPF50+",
+    "brand": "Tirtir",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Relife Mist",
+    "brand": "345",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Panthenol, Allantoin, Betaine"
+  },
+  {
+    "name": "Relife Toner",
+    "brand": "345",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Enzyme Peel",
+    "brand": "Oxygenceuticals",
+    "category": "exfoliant",
+    "ingredientsText": "Papain, Bromelain, Glycolic Acid, Aloe Barbadensis Leaf Extract"
+  },
+  {
+    "name": "Ceramic Milk Ampoule",
+    "brand": "Tirtir",
+    "category": "serum",
+    "ingredientsText": "Ceramide NP, Milk Protein, Niacinamide, Panthenol, Betaine"
+  },
+  {
+    "name": "Ceramic Cream",
+    "brand": "Tirtir",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Milk Protein, Shea Butter, Panthenol, Squalane"
+  },
+  {
+    "name": "Aloe 92% Soothing Gel",
+    "brand": "Holika Holika",
+    "category": "moisturizer",
+    "ingredientsText": "Aloe Barbadensis Leaf Extract 92%, Glycerin"
+  },
+  {
+    "name": "Good Cera Super Ceramide Cream",
+    "brand": "Holika Holika",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Shea Butter, Panthenol"
+  },
+  {
+    "name": "Rice Water Bright Cleansing Foam",
+    "brand": "The Face Shop",
+    "category": "cleanser",
+    "ingredientsText": "Rice Water, Coco-Betaine, Niacinamide"
+  },
+  {
+    "name": "Rice Water Bright Rice Ceramide Moisturizing Emulsion",
+    "brand": "The Face Shop",
+    "category": "moisturizer",
+    "ingredientsText": "Rice Water, Ceramide NP, Niacinamide"
+  },
+  {
+    "name": "Dark Spot Correcting Glow Serum",
+    "brand": "AXIS-Y",
+    "category": "serum",
+    "ingredientsText": "Niacinamide, Arbutin, Adenosine, Panthenol"
+  },
+  {
+    "name": "Biome Resetting Micro Gel Cleanser",
+    "brand": "AXIS-Y",
+    "category": "cleanser",
+    "ingredientsText": "Centella Asiatica Extract, Coco-Betaine, Panthenol"
+  },
+  {
+    "name": "Mugwort Pore Toner",
+    "brand": "AXIS-Y",
+    "category": "toner",
+    "ingredientsText": "Artemisia Princeps Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Greenful Mugwort Calming Gel Cream",
+    "brand": "Beplain",
+    "category": "moisturizer",
+    "ingredientsText": "Artemisia Princeps Extract, Panthenol, Madecassoside"
+  },
+  {
+    "name": "Mung Bean pH-Balanced Cleansing Foam",
+    "brand": "Beplain",
+    "category": "cleanser",
+    "ingredientsText": "Mung Bean Extract, Coco-Betaine, Panthenol"
+  },
+  {
+    "name": "Tea Tree Purifine Toner Pad",
+    "brand": "Dr.Ceuracle",
+    "category": "toner",
+    "ingredientsText": "Tea Tree Leaf Extract, Salicylic Acid, Panthenol"
+  },
+  {
+    "name": "Red Blemish Cream",
+    "brand": "Dr.Ceuracle",
+    "category": "treatment",
+    "ingredientsText": "Centella Asiatica Extract, Madecassoside, Niacinamide"
+  },
+  {
+    "name": "All Day Vitamin Bright Serum",
+    "brand": "Jumiso",
+    "category": "serum",
+    "ingredientsText": "Ascorbyl Glucoside, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Waterfull Hyaluronic Acid Toner",
+    "brand": "Jumiso",
+    "category": "toner",
+    "ingredientsText": "Sodium Hyaluronate, Panthenol, Betaine"
+  },
+  {
+    "name": "N.M.F Aquaring Ampoule Mask",
+    "brand": "Mediheal",
+    "category": "mask",
+    "ingredientsText": "Sodium Hyaluronate, Amino Acids, Panthenol"
+  },
+  {
+    "name": "Teatree Care Solution Essential Mask",
+    "brand": "Mediheal",
+    "category": "mask",
+    "ingredientsText": "Tea Tree Leaf Extract, Salicylic Acid, Niacinamide"
+  },
+  {
+    "name": "My Signature Red Tea Toner",
+    "brand": "TIA'M",
+    "category": "toner",
+    "ingredientsText": "Camellia Sinensis Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Vita 100 Brightening Serum",
+    "brand": "TIA'M",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Niacinamide, Adenosine"
+  },
+  {
+    "name": "Bio Watery Sun Cream SPF50+",
+    "brand": "Tocobo",
+    "category": "sunscreen",
+    "ingredientsText": "Titanium Dioxide, Zinc Oxide, Niacinamide, Centella Asiatica Extract"
+  },
+  {
+    "name": "Vita Ceramide Cream",
+    "brand": "Tocobo",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Vitamin E, Shea Butter"
+  },
+  {
+    "name": "Wow Thankyou Toner",
+    "brand": "Sioris",
+    "category": "toner",
+    "ingredientsText": "Houttuynia Cordata Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "White Truffle First Spray Serum",
+    "brand": "d'Alba",
+    "category": "serum",
+    "ingredientsText": "White Truffle Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Black Rice Hyaluronic Acid Serum",
+    "brand": "Haruharu Wilde",
+    "category": "serum",
+    "ingredientsText": "Oryza Sativa Extract, Sodium Hyaluronate, Niacinamide"
+  },
+  {
+    "name": "Black Rice Origin Essence",
+    "brand": "Haruharu Wilde",
+    "category": "serum",
+    "ingredientsText": "Oryza Sativa Extract, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Extreme Cream",
+    "brand": "Real Barrier",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Cholesterol, Panthenol"
+  },
+  {
+    "name": "Control-T Toner",
+    "brand": "Real Barrier",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Salicylic Acid, Panthenol"
+  },
+  {
+    "name": "Dual Barrier Cream",
+    "brand": "Celimax",
+    "category": "moisturizer",
+    "ingredientsText": "Ceramide NP, Panthenol, Madecassoside"
+  },
+  {
+    "name": "Bio Essence Intensive",
+    "brand": "IOPE",
+    "category": "serum",
+    "ingredientsText": "Bifida Ferment Lysate, Niacinamide, Adenosine"
+  },
+  {
+    "name": "Mind Adenosine Ampoule",
+    "brand": "Primera",
+    "category": "serum",
+    "ingredientsText": "Adenosine, Panthenol, Sodium Hyaluronate"
+  },
+  {
+    "name": "Rose Water Toner",
+    "brand": "Mamonde",
+    "category": "toner",
+    "ingredientsText": "Rosa Damascena Flower Water, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Vitamin Drop Serum",
+    "brand": "Skin&Lab",
+    "category": "serum",
+    "ingredientsText": "Ascorbic Acid, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Blemish Care Calming Toner",
+    "brand": "Cosnori",
+    "category": "toner",
+    "ingredientsText": "Centella Asiatica Extract, Panthenol, Allantoin"
+  },
+  {
+    "name": "Blue Copper Peptide Cream",
+    "brand": "By Wishtrend",
+    "category": "moisturizer",
+    "ingredientsText": "Copper Tripeptide-1, Ceramide NP, Panthenol"
+  },
+  {
+    "name": "Green Tea and Enzyme Gentle Foam Cleanser",
+    "brand": "By Wishtrend",
+    "category": "cleanser",
+    "ingredientsText": "Camellia Sinensis Leaf Extract, Papain, Coco-Betaine"
+  },
+  {
+    "name": "Rose Gold Radiance Facial Treatment Mask",
+    "brand": "111SKIN",
+    "category": "mask",
+    "ingredientsText": "Colloidal Gold, Rose Extract, Hydrolyzed Collagen, Sodium Hyaluronate"
+  },
+  {
+    "name": "NAC Y2 Advanced Night Repair Serum",
+    "brand": "111SKIN",
+    "category": "serum",
+    "ingredientsText": "N-Acetyl Carnosine, Sodium Hyaluronate, Retinol, Peptide Complex"
+  },
+  {
+    "name": "Y Theorem Repair Serum",
+    "brand": "111SKIN",
+    "category": "serum",
+    "ingredientsText": "Y2 Bio Complex, Sodium Hyaluronate, Vitamin C, Peptide Complex"
+  },
+  {
+    "name": "Celestial Black Diamond Retinol Oil",
+    "brand": "111SKIN",
+    "category": "faceOil",
+    "ingredientsText": "Retinol, Black Diamond Truffle Extract, Squalane, Jojoba Oil"
+  },
+  {
+    "name": "Sub Zero De-Puffing Energy Cream",
+    "brand": "111SKIN",
+    "category": "moisturizer",
+    "ingredientsText": "Caffeine, Peptide Complex, Sodium Hyaluronate, Panthenol"
+  },
+  {
+    "name": "R.N.A. Power Radical New Age Cream",
+    "brand": "SK-II",
+    "category": "moisturizer",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Peptide Complex, Niacinamide"
+  },
+  {
+    "name": "Facial Treatment Mask",
+    "brand": "SK-II",
+    "category": "mask",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Sodium Hyaluronate, Niacinamide"
+  },
+  {
+    "name": "Facial Treatment Clear Lotion",
+    "brand": "SK-II",
+    "category": "exfoliant",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Salicylic Acid, Alcohol"
+  },
+  {
+    "name": "GenOptics Aura Essence",
+    "brand": "SK-II",
+    "category": "serum",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Niacinamide, Sodium Ascorbyl Phosphate"
+  },
+  {
+    "name": "Stempower Eye Cream",
+    "brand": "SK-II",
+    "category": "eyeCream",
+    "ingredientsText": "Galactomyces Ferment Filtrate (Pitera), Peptide Complex, Panthenol"
+  },
+  {
+    "name": "No.9 NAD+ Retinol Volumetox Eye Cream",
+    "brand": "Numbuzin",
+    "category": "eyeCream",
+    "ingredientsText": "NAD+, Retinol, Peptide Complex, Caffeine, Panthenol"
+  },
+  {
+    "name": "Slam Dunk Hyaluronic Acid Moisturizer",
+    "brand": "Bubble",
+    "category": "moisturizer",
+    "ingredientsText": "Sodium Hyaluronate, Squalane, Niacinamide, Panthenol"
+  },
+  {
+    "name": "Bounce Gentle Daily Cleanser",
+    "brand": "Bubble",
+    "category": "cleanser",
+    "ingredientsText": "Coco-Betaine, Aloe Barbadensis Leaf Extract, Glycerin"
+  },
+  {
+    "name": "Level Up Gel Moisturizer",
+    "brand": "Bubble",
+    "category": "moisturizer",
+    "ingredientsText": "Sodium Hyaluronate, Niacinamide, Aloe Barbadensis Leaf Extract"
+  },
+  {
+    "name": "Micellar Cleansing Water",
+    "brand": "Bubble",
+    "category": "cleanser",
+    "ingredientsText": "Micellar Water, Glycerin, Panthenol"
+  },
+  {
+    "name": "Mighty Patch Original",
+    "brand": "Hero Cosmetics",
+    "category": "treatment",
+    "ingredientsText": "Hydrocolloid"
+  },
+  {
+    "name": "Mighty Patch Micropoint for Dark Spots",
+    "brand": "Hero Cosmetics",
+    "category": "treatment",
+    "ingredientsText": "Hydrocolloid, Niacinamide, Salicylic Acid, Microdart Array"
+  },
+  {
+    "name": "Rescue Balm",
+    "brand": "Hero Cosmetics",
+    "category": "treatment",
+    "ingredientsText": "Centella Asiatica Extract, Panthenol, Ceramide NP"
+  },
+  {
+    "name": "Hydro-Stars Acne Patches",
+    "brand": "Starface",
+    "category": "treatment",
+    "ingredientsText": "Hydrocolloid"
+  },
+  {
+    "name": "Acne Healing Dots",
+    "brand": "Peace Out",
+    "category": "treatment",
+    "ingredientsText": "Salicylic Acid, Hydrocolloid, Tea Tree Leaf Oil"
+  },
+  {
+    "name": "Dark Spot Serum",
+    "brand": "Peace Out",
+    "category": "serum",
+    "ingredientsText": "Tranexamic Acid, Niacinamide, Alpha Arbutin"
+  },
+  {
+    "name": "Facial Steamer",
+    "brand": "Generic",
+    "category": "tool",
+    "ingredientsText": ""
+  },
+  {
+    "name": "Jade Roller",
+    "brand": "Generic",
+    "category": "tool",
+    "ingredientsText": ""
+  },
+  {
+    "name": "Gua Sha Stone",
+    "brand": "Generic",
+    "category": "tool",
+    "ingredientsText": ""
+  },
+  {
+    "name": "Ice Roller",
+    "brand": "Generic",
+    "category": "tool",
+    "ingredientsText": ""
+  },
+  {
+    "name": "LED Light Therapy Mask",
+    "brand": "Generic",
+    "category": "tool",
+    "ingredientsText": ""
+  }
+]

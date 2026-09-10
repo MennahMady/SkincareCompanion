@@ -6,14 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E2C197AD304A951F008E12EE /* RoutineEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1978A304A927A008E12EE /* RoutineEngineTests.swift */; };
+		E2C197AE304A953F008E12EE /* OpenBeautyFactsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C19789304A927A008E12EE /* OpenBeautyFactsServiceTests.swift */; };
+		E2C197AF304A9546008E12EE /* CuratedProductStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C19788304A927A008E12EE /* CuratedProductStoreTests.swift */; };
+		E2C197B0304A954D008E12EE /* ActiveDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C19787304A927A008E12EE /* ActiveDetectionTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2C1979E304A950D008E12EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C196FB304A806A008E12EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C19702304A806A008E12EE;
+			remoteInfo = SkincareCompanion;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E2C19703304A806A008E12EE /* SkincareCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkincareCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C19787304A927A008E12EE /* ActiveDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveDetectionTests.swift; sourceTree = "<group>"; };
+		E2C19788304A927A008E12EE /* CuratedProductStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuratedProductStoreTests.swift; sourceTree = "<group>"; };
+		E2C19789304A927A008E12EE /* OpenBeautyFactsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBeautyFactsServiceTests.swift; sourceTree = "<group>"; };
+		E2C1978A304A927A008E12EE /* RoutineEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineEngineTests.swift; sourceTree = "<group>"; };
+		E2C1979A304A950C008E12EE /* SkincareCompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkincareCompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E2C19705304A806A008E12EE /* SkincareCompanion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SkincareCompanion;
+			sourceTree = "<group>";
+		};
+		E2C1979B304A950D008E12EE /* SkincareCompanionTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkincareCompanionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -26,13 +53,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2C19797304A950C008E12EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E2C196FA304A806A008E12EE = {
 			isa = PBXGroup;
 			children = (
+				E2C1978B304A927A008E12EE /* SkincareCompanionTests */,
 				E2C19705304A806A008E12EE /* SkincareCompanion */,
+				E2C1979B304A950D008E12EE /* SkincareCompanionTests */,
 				E2C19704304A806A008E12EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,8 +77,20 @@
 			isa = PBXGroup;
 			children = (
 				E2C19703304A806A008E12EE /* SkincareCompanion.app */,
+				E2C1979A304A950C008E12EE /* SkincareCompanionTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C1978B304A927A008E12EE /* SkincareCompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C19787304A927A008E12EE /* ActiveDetectionTests.swift */,
+				E2C19788304A927A008E12EE /* CuratedProductStoreTests.swift */,
+				E2C19789304A927A008E12EE /* OpenBeautyFactsServiceTests.swift */,
+				E2C1978A304A927A008E12EE /* RoutineEngineTests.swift */,
+			);
+			path = SkincareCompanionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,6 +118,29 @@
 			productReference = E2C19703304A806A008E12EE /* SkincareCompanion.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2C19799304A950C008E12EE /* SkincareCompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C197A0304A950D008E12EE /* Build configuration list for PBXNativeTarget "SkincareCompanionTests" */;
+			buildPhases = (
+				E2C19796304A950C008E12EE /* Sources */,
+				E2C19797304A950C008E12EE /* Frameworks */,
+				E2C19798304A950C008E12EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C1979F304A950D008E12EE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E2C1979B304A950D008E12EE /* SkincareCompanionTests */,
+			);
+			name = SkincareCompanionTests;
+			packageProductDependencies = (
+			);
+			productName = SkincareCompanionTests;
+			productReference = E2C1979A304A950C008E12EE /* SkincareCompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +153,10 @@
 				TargetAttributes = {
 					E2C19702304A806A008E12EE = {
 						CreatedOnToolsVersion = 26.6;
+					};
+					E2C19799304A950C008E12EE = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = E2C19702304A806A008E12EE;
 					};
 				};
 			};
@@ -100,12 +175,20 @@
 			projectRoot = "";
 			targets = (
 				E2C19702304A806A008E12EE /* SkincareCompanion */,
+				E2C19799304A950C008E12EE /* SkincareCompanionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E2C19701304A806A008E12EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C19798304A950C008E12EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +205,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2C19796304A950C008E12EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C197AD304A951F008E12EE /* RoutineEngineTests.swift in Sources */,
+				E2C197AF304A9546008E12EE /* CuratedProductStoreTests.swift in Sources */,
+				E2C197AE304A953F008E12EE /* OpenBeautyFactsServiceTests.swift in Sources */,
+				E2C197B0304A954D008E12EE /* ActiveDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C1979F304A950D008E12EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C19702304A806A008E12EE /* SkincareCompanion */;
+			targetProxy = E2C1979E304A950D008E12EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E2C1970E304A806D008E12EE /* Debug */ = {
@@ -177,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -234,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -251,11 +353,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFCWTY5X92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,11 +386,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFCWTY5X92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,6 +409,46 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2C197A1304A950D008E12EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuna.SkincareCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkincareCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkincareCompanion";
+			};
+			name = Debug;
+		};
+		E2C197A2304A950D008E12EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manuna.SkincareCompanionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkincareCompanion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkincareCompanion";
 			};
 			name = Release;
 		};
@@ -323,6 +469,15 @@
 			buildConfigurations = (
 				E2C19711304A806D008E12EE /* Debug */,
 				E2C19712304A806D008E12EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C197A0304A950D008E12EE /* Build configuration list for PBXNativeTarget "SkincareCompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C197A1304A950D008E12EE /* Debug */,
+				E2C197A2304A950D008E12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
