@@ -41,9 +41,16 @@ struct OBFProduct: Codable {
     }
 
     /// Maps the raw API payload into our internal Product model. Returns
-    /// nil for entries too sparse to be useful (no name).
+    /// nil for entries too sparse to be useful — either no name at all,
+    /// or (a common junk-submission pattern on OBF) a "name" that's
+    /// actually just the brand typed into the wrong field, e.g. a
+    /// product literally named "The Ordinary". Those aren't identifying
+    /// an actual product, so they're worse than not showing up at all.
     func toProduct() -> Product? {
         guard let name = productName, !name.trimmingCharacters(in: .whitespaces).isEmpty else {
+            return nil
+        }
+        if let brands, isNameJustTheBrand(name: name, brands: brands) {
             return nil
         }
         let id = code ?? UUID().uuidString
@@ -57,5 +64,25 @@ struct OBFProduct: Codable {
             imageURL: imageURL.flatMap(URL.init(string:)),
             source: .openBeautyFacts
         )
+    }
+
+    /// True when the "product name" is really just the brand name (or one
+    /// of a multi-brand list) with no product-specific text — e.g. name
+    /// "The Ordinary" / brands "The Ordinary", or name "www.theordinary.com".
+    /// Also strips things like "www." / ".com" noise before comparing so a
+    /// URL-as-name submission gets caught too.
+    private func isNameJustTheBrand(name: String, brands: String) -> Bool {
+        func normalize(_ s: String) -> String {
+            var s = s.lowercased().trimmingCharacters(in: .whitespaces)
+            for prefix in ["www.", "http://", "https://"] where s.hasPrefix(prefix) {
+                s.removeFirst(prefix.count)
+            }
+            if s.hasSuffix(".com") { s.removeLast(4) }
+            return s.trimmingCharacters(in: .punctuationCharacters.union(.whitespaces))
+        }
+        let normalizedName = normalize(name)
+        guard !normalizedName.isEmpty else { return true }
+        let brandList = brands.split(separator: ",").map { normalize(String($0)) }
+        return brandList.contains(normalizedName)
     }
 }

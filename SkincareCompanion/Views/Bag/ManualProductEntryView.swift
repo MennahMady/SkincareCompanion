@@ -15,10 +15,21 @@ struct ManualProductEntryView: View {
     @Environment(\.modelContext) private var modelContext
     let onAdd: () -> Void
 
-    @State private var name = ""
+    @State private var name: String
     @State private var brand = ""
     @State private var category: ProductCategory = .serum
     @State private var ingredientsText = ""
+    private let wasPrefilled: Bool
+
+    /// Pre-fills the name field — used when this screen is reached from
+    /// the label-scan flow (ProductScannerView), which can only read
+    /// text off the packaging, not identify the product outright, so
+    /// the user still reviews and confirms everything else themselves.
+    init(onAdd: @escaping () -> Void, prefillName: String? = nil) {
+        self.onAdd = onAdd
+        _name = State(initialValue: prefillName ?? "")
+        self.wasPrefilled = prefillName != nil
+    }
 
     var body: some View {
         ScrollView {
@@ -26,6 +37,12 @@ struct ManualProductEntryView: View {
                 VStack(alignment: .leading, spacing: 10) {
                     Label("Product Details", systemImage: "tag.fill")
                         .font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+
+                    if wasPrefilled {
+                        Text("Read off the label with the camera — double-check it and fill in the rest.")
+                            .font(.cuteCaption(11))
+                            .foregroundStyle(Theme.lavenderDeep)
+                    }
 
                     cuteField("Name", text: $name)
                     cuteField("Brand (optional)", text: $brand)

@@ -14,6 +14,13 @@ struct ProductDetailView: View {
     @Bindable var item: BagItem
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
+    @State private var selectedActive: Active?
+
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .medium
+        return formatter
+    }()
 
     var body: some View {
         ZStack {
@@ -59,6 +66,18 @@ struct ProductDetailView: View {
                                 }
                             }
                         }
+
+                        if let prep = item.category.prepNote {
+                            Text("Before this: \(prep)")
+                                .font(.cuteCaption(12))
+                                .foregroundStyle(Theme.lavenderDeep)
+                                .padding(.top, 4)
+                        }
+                        if let tip = item.category.applicationTip {
+                            Text("How to apply: \(tip)")
+                                .font(.cuteCaption(12))
+                                .foregroundStyle(Theme.lavenderDeep)
+                        }
                     }
                     .cuteCard()
 
@@ -66,12 +85,75 @@ struct ProductDetailView: View {
                         VStack(alignment: .leading, spacing: 10) {
                             Label("Detected Actives", systemImage: "wand.and.stars")
                                 .font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+                            Text("Tap one to see what it does and what it conflicts with.")
+                                .font(.cuteCaption(11))
+                                .foregroundStyle(Theme.textSecondary)
                             FlexibleWrap(items: Array(item.detectedActives).sorted(by: { $0.displayName < $1.displayName })) { active, index in
-                                CutePill(text: active.displayName, tint: Theme.pastel(for: index))
+                                Button {
+                                    selectedActive = active
+                                } label: {
+                                    CutePill(text: active.displayName, tint: Theme.pastel(for: index))
+                                }
+                                .buttonStyle(.plain)
                             }
                         }
                         .cuteCard(tint: Theme.mint.opacity(0.5))
                     }
+
+                    if item.category.hasIngredients && !item.suitableSkinTypes.isEmpty {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Label("Best For", systemImage: "person.fill.checkmark")
+                                .font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+                            FlexibleWrap(items: item.suitableSkinTypes) { skinType, index in
+                                CutePill(text: skinType.displayName, tint: Theme.pastel(for: index))
+                            }
+                            Text("A best-guess from this product's category and ingredients, not a verified brand claim — always patch test something new.")
+                                .font(.cuteCaption(10))
+                                .foregroundStyle(Theme.textSecondary)
+                        }
+                        .cuteCard(tint: Theme.butter.opacity(0.5))
+                    }
+
+                    VStack(alignment: .leading, spacing: 10) {
+                        Label("Track Expiry", systemImage: "hourglass").font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+                        Text("Most packaging has a little jar icon like \"12M\" — how many months it's good for once opened.")
+                            .font(.cuteCaption())
+                            .foregroundStyle(Theme.textSecondary)
+
+                        Toggle(isOn: Binding(
+                            get: { item.openedDate != nil },
+                            set: { isOn in
+                                item.openedDate = isOn ? .now : nil
+                                if isOn, item.paoMonths == nil { item.paoMonths = 12 }
+                                try? modelContext.save()
+                            }
+                        )) {
+                            Text("I've opened this").font(.cuteBody(14))
+                        }
+                        .tint(Theme.accent)
+
+                        if item.openedDate != nil {
+                            DatePicker("Opened on", selection: Binding(
+                                get: { item.openedDate ?? .now },
+                                set: { item.openedDate = $0; try? modelContext.save() }
+                            ), displayedComponents: .date)
+                            .font(.cuteCaption(13))
+
+                            Stepper(value: Binding(
+                                get: { item.paoMonths ?? 12 },
+                                set: { item.paoMonths = $0; try? modelContext.save() }
+                            ), in: 1...36) {
+                                Text("Good for \(item.paoMonths ?? 12) months (PAO)").font(.cuteCaption(13))
+                            }
+
+                            if let expiry = item.estimatedExpiryDate {
+                                Text(item.isLikelyExpired ? "Estimated to have expired \(Self.dateFormatter.string(from: expiry))." : "Estimated to expire \(Self.dateFormatter.string(from: expiry)).")
+                                    .font(.cuteCaption(12))
+                                    .foregroundStyle(item.isLikelyExpired ? Theme.blushDeep : Theme.textSecondary)
+                            }
+                        }
+                    }
+                    .cuteCard(tint: Theme.cream)
 
                     if let ingredients = item.ingredientsText, !ingredients.isEmpty {
                         VStack(alignment: .leading, spacing: 8) {
@@ -94,6 +176,58 @@ struct ProductDetailView: View {
         }
         .navigationTitle(item.name)
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(item: $selectedActive) { active in
+            ActiveInfoSheet(active: active)
+        }
+    }
+}
+
+/// What an ingredient actually does, plus anything it's commonly flagged
+/// for layering with — shown when someone taps a detected-active chip.
+private struct ActiveInfoSheet: View {
+    let active: Active
+
+    var body: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    VStack(alignment: .leading, spacing: 6) {
+                        Label("What It Does", systemImage: "wand.and.stars")
+                            .font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+                        Text(active.whatItDoes).font(.cuteBody(14)).foregroundStyle(Theme.textSecondary)
+                    }
+                    .cuteCard(tint: Theme.mint.opacity(0.5))
+
+                    if !active.knownConflicts.isEmpty {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Label("Watch Out For", systemImage: "exclamationmark.triangle.fill")
+                                .font(.cuteHeadline()).foregroundStyle(Theme.textPrimary)
+                            ForEach(Array(active.knownConflicts.enumerated()), id: \.offset) { _, conflict in
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text(conflict.other.displayName).font(.cuteHeadline(13)).foregroundStyle(Theme.blushDeep)
+                                    Text(conflict.detail).font(.cuteCaption(12)).foregroundStyle(Theme.textSecondary)
+                                }
+                            }
+                        }
+                        .cuteCard(tint: Theme.peach.opacity(0.5))
+                    } else {
+                        Text("No commonly-cited layering conflicts for this one — it plays well with most other actives.")
+                            .font(.cuteCaption())
+                            .foregroundStyle(Theme.textSecondary)
+                            .padding(.horizontal, 4)
+                    }
+
+                    Text("General educational info, not dermatological advice.")
+                        .font(.cuteCaption(10))
+                        .foregroundStyle(Theme.textSecondary)
+                }
+                .padding()
+            }
+            .background(Theme.backgroundGradient.ignoresSafeArea())
+            .navigationTitle(active.displayName)
+            .navigationBarTitleDisplayMode(.inline)
+        }
+        .presentationDetents([.medium, .large])
     }
 }
 

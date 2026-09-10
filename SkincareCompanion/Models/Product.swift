@@ -32,6 +32,13 @@ struct Product: Identifiable, Hashable, Codable {
         Active.detect(in: ingredientsText)
     }
 
+    /// Best-guess skin types this product suits, inferred from its
+    /// category and ingredients — see SkinTypeSuitability for the
+    /// (heuristic, not verified) reasoning.
+    var suitableSkinTypes: [SkinType] {
+        SkinTypeSuitability.infer(category: category, ingredientsText: ingredientsText, detectedActives: detectedActives)
+    }
+
     static func manual(name: String, brand: String?, category: ProductCategory, ingredientsText: String?) -> Product {
         Product(
             id: UUID().uuidString,

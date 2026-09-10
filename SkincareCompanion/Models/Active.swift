@@ -11,7 +11,9 @@
 
 import Foundation
 
-enum Active: String, CaseIterable, Codable {
+enum Active: String, CaseIterable, Codable, Identifiable {
+    var id: String { rawValue }
+
     case retinoid          // retinol, retinal, retinaldehyde, tretinoin, adapalene
     case salicylicAcid     // BHA
     case glycolicAcid      // AHA
@@ -84,6 +86,58 @@ enum Active: String, CaseIterable, Codable {
             return ["kaolin", "bentonite", "clay"]
         case .spfFilter:
             return ["titanium dioxide", "zinc oxide", "octinoxate", "avobenzone", "octocrylene", "homosalate", "octisalate", "ensulizole", "tinosorb"]
+        }
+    }
+
+    /// Plain-language "what does this actually do" — shown when someone
+    /// taps an ingredient chip. General educational summary, not medical
+    /// or dermatological advice (same caveat as the rest of the app).
+    var whatItDoes: String {
+        switch self {
+        case .retinoid:
+            return "A vitamin A derivative that speeds up cell turnover and boosts collagen production. Commonly used for fine lines, texture, and acne — but it's the most irritation-prone active here, so it's usually introduced slowly."
+        case .salicylicAcid:
+            return "An oil-soluble exfoliating acid (BHA) that gets into pores to clear out oil and dead skin. A common go-to for blackheads, breakouts, and enlarged pores."
+        case .glycolicAcid:
+            return "A small-molecule exfoliating acid (AHA) that dissolves the \"glue\" between dead skin cells on the surface. Commonly used for texture, dullness, and mild discoloration."
+        case .lacticAcid:
+            return "An AHA similar to glycolic acid but a larger molecule, so it exfoliates a bit more gently while also drawing in some moisture. Often chosen by people who find glycolic acid too irritating."
+        case .benzoylPeroxide:
+            return "An antibacterial that kills the acne-causing bacteria C. acnes. A common first-line acne treatment, though it can bleach fabric and dry out skin."
+        case .niacinamide:
+            return "A form of vitamin B3 that's broadly well-tolerated. Commonly used for oil control, redness, enlarged-pore appearance, and as general barrier support."
+        case .vitaminC:
+            return "An antioxidant that helps defend against environmental damage (UV, pollution) and is commonly cited for brightening and mild dark-spot fading over time."
+        case .hyaluronicAcid:
+            return "A humectant that pulls water into the skin's surface layer. Used to hydrate rather than treat — pairs with most other actives without much conflict."
+        case .azelaicAcid:
+            return "A gentler multi-tasking acid commonly used for redness, mild breakouts, and post-acne discoloration. Considered one of the better-tolerated actives for sensitive skin."
+        case .ceramides:
+            return "Lipids that are naturally part of the skin's barrier. Topical ceramides are used to help reinforce that barrier, especially after using drying actives."
+        case .peptides:
+            return "Short chains of amino acids marketed for supporting collagen production and firmness. Generally well-tolerated with limited conflict risk."
+        case .centella:
+            return "A plant extract (also called cica) commonly used for calming redness and irritation and supporting the skin barrier."
+        case .squalane:
+            return "A lightweight, non-greasy emollient oil that mimics skin's own natural oils. Used to seal in moisture without feeling heavy."
+        case .glycerin:
+            return "A basic humectant found in most moisturizing products — draws water into the skin's surface. Very well-tolerated and rarely a source of irritation on its own."
+        case .clay:
+            return "An absorbent mineral used to soak up excess oil, commonly in masks and cleansers for oily/combination skin."
+        case .spfFilter:
+            return "A UV-filtering ingredient (mineral like zinc oxide/titanium dioxide, or a chemical filter) that protects against sun damage — commonly cited as the single highest-impact anti-aging step there is."
+        }
+    }
+
+    /// Every other active this one is commonly flagged for layering
+    /// with, pulled straight from IngredientConflictRules so this stays
+    /// in sync with the actual conflict-detection logic instead of
+    /// duplicating it.
+    var knownConflicts: [(other: Active, detail: String)] {
+        IngredientConflictRules.rules.compactMap { rule in
+            if rule.a == self { return (rule.b, rule.detail) }
+            if rule.b == self { return (rule.a, rule.detail) }
+            return nil
         }
     }
 
